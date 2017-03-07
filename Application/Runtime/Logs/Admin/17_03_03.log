@@ -1,0 +1,569 @@
+[ 2017-03-03T17:45:31+08:00 ] ::1 /AO/index.php/Admin/Test/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003309s ]
+SQL: SHOW COLUMNS FROM `testkind` [ RunTime:0.0158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001797s ]
+
+[ 2017-03-03T17:46:05+08:00 ] ::1 /AO/index.php/Admin/Test/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `testkind` [ RunTime:0.0136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001620s ]
+
+[ 2017-03-03T17:46:12+08:00 ] ::1 /AO/index.php/Admin/Test/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003352s ]
+SQL: SHOW COLUMNS FROM `testkind` [ RunTime:0.0138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001564s ]
+
+[ 2017-03-03T17:49:31+08:00 ] ::1 /AO/index.php/Admin/Test/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002423s ]
+SQL: SHOW COLUMNS FROM `testkind` [ RunTime:0.0155s ]
+SQL: INSERT INTO `testkind` (`tmkid`,`kind`) VALUES ('1','数字逻辑') [ RunTime:0.0422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001637s ]
+
+[ 2017-03-03T17:49:43+08:00 ] ::1 /AO/index.php/Admin/Test/modify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001868s ]
+SQL: SHOW COLUMNS FROM `testkind` [ RunTime:0.0426s ]
+SQL: UPDATE `testkind` SET `kind`='数字' WHERE `tkid` = 7 [ RunTime:0.0760s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001910s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001965s ]
+
+[ 2017-03-03T17:49:55+08:00 ] ::1 /AO/index.php/Admin/Test/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002653s ]
+SQL: SHOW COLUMNS FROM `testkind` [ RunTime:0.0141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001562s ]
+
+[ 2017-03-03T17:51:28+08:00 ] ::1 /AO/index.php/Admin/Test/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002917s ]
+SQL: SHOW COLUMNS FROM `testkind` [ RunTime:0.0138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002420s ]
+
+[ 2017-03-03T17:52:14+08:00 ] ::1 /AO/index.php/Admin/Test/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001931s ]
+SQL: SHOW COLUMNS FROM `testkind` [ RunTime:0.0153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001740s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001806s ]
+
+[ 2017-03-03T17:53:38+08:00 ] ::1 /AO/index.php/Admin/Test/delete
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002345s ]
+SQL: SHOW COLUMNS FROM `testkind` [ RunTime:0.0148s ]
+SQL: DELETE FROM `testkind` WHERE `tkid` = 7 [ RunTime:0.0724s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002180s ]
+
+[ 2017-03-03T19:35:27+08:00 ] ::1 /AO/index.php/Admin/Test/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.105567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.271989s ]
+SQL: SHOW COLUMNS FROM `testkind` [ RunTime:0.1214s ]
+SQL: INSERT INTO `testkind` (`tmkid`,`kind`) VALUES ('1','概率统计') [ RunTime:0.0677s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.058368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.058476s ]
+
+[ 2017-03-03T19:35:43+08:00 ] ::1 /AO/index.php/Admin/Test/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002231s ]
+SQL: SHOW COLUMNS FROM `testkind` [ RunTime:0.0318s ]
+SQL: INSERT INTO `testkind` (`tmkid`,`kind`) VALUES ('1','智力题') [ RunTime:0.1079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004488s ]
+
+[ 2017-03-03T19:36:00+08:00 ] ::1 /AO/index.php/Admin/Test/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002040s ]
+SQL: SHOW COLUMNS FROM `testkind` [ RunTime:0.0278s ]
+SQL: INSERT INTO `testkind` (`tmkid`,`kind`) VALUES ('2','Java') [ RunTime:0.2231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001749s ]
+
+[ 2017-03-03T19:36:24+08:00 ] ::1 /AO/index.php/Admin/Test/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002865s ]
+SQL: SHOW COLUMNS FROM `testkind` [ RunTime:0.0165s ]
+SQL: INSERT INTO `testkind` (`tmkid`,`kind`) VALUES ('2','Javascript') [ RunTime:0.0649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002136s ]
+
+[ 2017-03-03T19:36:34+08:00 ] ::1 /AO/index.php/Admin/Test/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002688s ]
+SQL: SHOW COLUMNS FROM `testkind` [ RunTime:0.0128s ]
+SQL: INSERT INTO `testkind` (`tmkid`,`kind`) VALUES ('2','C#') [ RunTime:0.0458s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004393s ]
+
+[ 2017-03-03T19:36:54+08:00 ] ::1 /AO/index.php/Admin/Test/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001826s ]
+SQL: SHOW COLUMNS FROM `testkind` [ RunTime:0.0303s ]
+SQL: INSERT INTO `testkind` (`tmkid`,`kind`) VALUES ('3','排序') [ RunTime:0.0388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004193s ]
+
+[ 2017-03-03T19:37:06+08:00 ] ::1 /AO/index.php/Admin/Test/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002013s ]
+SQL: SHOW COLUMNS FROM `testkind` [ RunTime:0.0145s ]
+SQL: INSERT INTO `testkind` (`tmkid`,`kind`) VALUES ('3','递归') [ RunTime:0.0643s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004175s ]
+
+[ 2017-03-03T19:37:20+08:00 ] ::1 /AO/index.php/Admin/Test/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001964s ]
+SQL: SHOW COLUMNS FROM `testkind` [ RunTime:0.0130s ]
+SQL: INSERT INTO `testkind` (`tmkid`,`kind`) VALUES ('3','复杂度') [ RunTime:0.0397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001869s ]
+
+[ 2017-03-03T19:37:38+08:00 ] ::1 /AO/index.php/Admin/Test/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002226s ]
+SQL: SHOW COLUMNS FROM `testkind` [ RunTime:0.0802s ]
+SQL: INSERT INTO `testkind` (`tmkid`,`kind`) VALUES ('4','网络基础') [ RunTime:0.1059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003836s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003965s ]
+
+[ 2017-03-03T19:37:53+08:00 ] ::1 /AO/index.php/Admin/Test/modify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001995s ]
+SQL: SHOW COLUMNS FROM `testkind` [ RunTime:0.0128s ]
+SQL: UPDATE `testkind` SET `kind`='数据库' WHERE `tkid` = 16 [ RunTime:0.1236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004579s ]
+
+[ 2017-03-03T19:38:05+08:00 ] ::1 /AO/index.php/Admin/Test/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001947s ]
+SQL: SHOW COLUMNS FROM `testkind` [ RunTime:0.0238s ]
+SQL: INSERT INTO `testkind` (`tmkid`,`kind`) VALUES ('4','操作系统') [ RunTime:0.0354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001686s ]
+
+[ 2017-03-03T19:38:19+08:00 ] ::1 /AO/index.php/Admin/Test/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002609s ]
+SQL: SHOW COLUMNS FROM `testkind` [ RunTime:0.0576s ]
+SQL: INSERT INTO `testkind` (`tmkid`,`kind`) VALUES ('5','字符串') [ RunTime:0.0572s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004521s ]
+
+[ 2017-03-03T19:38:39+08:00 ] ::1 /AO/index.php/Admin/Test/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002805s ]
+SQL: SHOW COLUMNS FROM `testkind` [ RunTime:0.0125s ]
+SQL: INSERT INTO `testkind` (`tmkid`,`kind`) VALUES ('6','机器学习') [ RunTime:0.0726s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003949s ]
+
+[ 2017-03-03T19:38:53+08:00 ] ::1 /AO/index.php/Admin/Test/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001917s ]
+SQL: SHOW COLUMNS FROM `testkind` [ RunTime:0.0128s ]
+SQL: INSERT INTO `testkind` (`tmkid`,`kind`) VALUES ('6','软件测试') [ RunTime:0.0482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005010s ]
+
+[ 2017-03-03T19:51:01+08:00 ] ::1 /AO/index.php/Admin/T%20%20%20%20%20%20%20%20%20%20%20%20%20%20/index
+ERR: 无法加载控制器:T
+
+[ 2017-03-03T20:21:57+08:00 ] ::1 /AO/index.php/Admin/Public/bootstrap-3.3.5-dist/css/bootstrap.min.css
+ERR: 无法加载控制器:Public
+
+[ 2017-03-03T20:21:57+08:00 ] ::1 /AO/index.php/Admin/Public/bootstrap-3.3.5-dist/css/bootstrap-theme.min.css
+ERR: 无法加载控制器:Public
+
+[ 2017-03-03T20:21:57+08:00 ] ::1 /AO/index.php/Admin/Public/bootstrap-3.3.5-dist/js/bootstrap.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-03-03T20:21:57+08:00 ] ::1 /AO/index.php/Admin/Public/jquery/jquery-1.10.1.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-03-03T20:21:57+08:00 ] ::1 /AO/index.php/Admin/Public/bootstrap-3.3.5-dist/js/bootstrap.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-03-03T21:45:05+08:00 ] ::1 /AO/index.php/Admin/Test/addProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001875s ]
+ERR: 非法操作:快速排序
+
+[ 2017-03-03T21:46:18+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002310s ]
+ERR: 非法操作:快速排序
+
+[ 2017-03-03T21:47:28+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002849s ]
+ERR: 非法操作:快速排序
+
+[ 2017-03-03T21:47:30+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001998s ]
+ERR: 非法操作:快速排序
+
+[ 2017-03-03T21:47:30+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002154s ]
+ERR: 非法操作:快速排序
+
+[ 2017-03-03T21:47:30+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002122s ]
+ERR: 非法操作:快速排序
+
+[ 2017-03-03T21:48:00+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001864s ]
+ERR: 非法操作:快速排序
+
+[ 2017-03-03T21:48:02+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002441s ]
+ERR: 非法操作:快速排序
+
+[ 2017-03-03T21:48:03+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001891s ]
+ERR: 非法操作:快速排序
+
+[ 2017-03-03T21:48:03+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002034s ]
+ERR: 非法操作:快速排序
+
+[ 2017-03-03T21:48:03+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002201s ]
+ERR: 非法操作:快速排序
+
+[ 2017-03-03T21:48:03+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002882s ]
+ERR: 非法操作:快速排序
+
+[ 2017-03-03T21:48:03+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002081s ]
+ERR: 非法操作:快速排序
+
+[ 2017-03-03T21:48:04+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002434s ]
+ERR: 非法操作:快速排序
+
+[ 2017-03-03T21:48:04+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002175s ]
+ERR: 非法操作:快速排序
+
+[ 2017-03-03T21:48:04+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001873s ]
+ERR: 非法操作:快速排序
+
+[ 2017-03-03T21:48:17+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001859s ]
+ERR: 非法操作:快速排序
+
+[ 2017-03-03T21:48:32+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002235s ]
+ERR: 非法操作:快速排序
+
+[ 2017-03-03T21:48:34+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002534s ]
+ERR: 非法操作:快速排序
+
+[ 2017-03-03T21:49:05+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002221s ]
+ERR: 非法操作:快速排序
+
+[ 2017-03-03T21:49:07+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002162s ]
+ERR: 非法操作:快速排序
+
+[ 2017-03-03T21:49:10+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001505s ]
+
+[ 2017-03-03T21:49:45+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001946s ]
+ERR: 非法操作:1
+
+[ 2017-03-03T21:51:15+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002222s ]
+ERR: 非法操作:2
+
+[ 2017-03-03T21:51:18+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002636s ]
+ERR: 非法操作:2
+
+[ 2017-03-03T21:52:26+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003005s ]
+ERR: 非法操作:2
+
+[ 2017-03-03T21:52:27+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002310s ]
+ERR: 非法操作:2
+
+[ 2017-03-03T21:52:55+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002954s ]
+NOTIC: [8] Undefined index: a C:\xampp\htdocs\AO\Application\Admin\Controller\TestController.class.php 第 52 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001430s ]
+
+[ 2017-03-03T21:53:48+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001866s ]
+ERR: 非法操作:2
+
+[ 2017-03-03T21:53:50+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001861s ]
+ERR: 非法操作:2
+
+[ 2017-03-03T21:53:57+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001913s ]
+NOTIC: [8] Undefined index: a C:\xampp\htdocs\AO\Application\Admin\Controller\TestController.class.php 第 52 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002423s ]
+
+[ 2017-03-03T21:54:28+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002021s ]
+SQL: SHOW COLUMNS FROM `problem` [ RunTime:0.0133s ]
+NOTIC: [8] Undefined index: a C:\xampp\htdocs\AO\Application\Admin\Controller\TestController.class.php 第 52 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001616s ]
+
+[ 2017-03-03T21:55:00+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002122s ]
+SQL: SHOW COLUMNS FROM `problem` [ RunTime:0.1228s ]
+NOTIC: [8] Undefined index: a C:\xampp\htdocs\AO\Application\Admin\Controller\TestController.class.php 第 52 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003966s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004082s ]
+
+[ 2017-03-03T21:55:14+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001909s ]
+ERR: 非法操作:2
+
+[ 2017-03-03T21:55:25+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001869s ]
+SQL: SHOW COLUMNS FROM `problem` [ RunTime:0.0265s ]
+NOTIC: [8] Undefined index: a C:\xampp\htdocs\AO\Application\Admin\Controller\TestController.class.php 第 52 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001620s ]
+
+[ 2017-03-03T21:56:11+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001964s ]
+SQL: SHOW COLUMNS FROM `problem` [ RunTime:0.0802s ]
+NOTIC: [8] Undefined index: a C:\xampp\htdocs\AO\Application\Admin\Controller\TestController.class.php 第 52 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004956s ]
+
+[ 2017-03-03T21:56:48+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002195s ]
+SQL: SHOW COLUMNS FROM `problem` [ RunTime:0.1669s ]
+NOTIC: [8] Undefined index: a C:\xampp\htdocs\AO\Application\Admin\Controller\TestController.class.php 第 52 行.
+NOTIC: [8] Undefined index: b C:\xampp\htdocs\AO\Application\Admin\Controller\TestController.class.php 第 53 行.
+NOTIC: [8] Undefined index: c C:\xampp\htdocs\AO\Application\Admin\Controller\TestController.class.php 第 54 行.
+NOTIC: [8] Undefined index: d C:\xampp\htdocs\AO\Application\Admin\Controller\TestController.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003179s ]
+
+[ 2017-03-03T21:58:29+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002140s ]
+SQL: SHOW COLUMNS FROM `problem` [ RunTime:0.1034s ]
+SQL: INSERT INTO `problem` (`pid`,`tkid`,`content`,`A`,`B`,`C`,`D`,`answer`) VALUES ('0','13','以下排序最慢的是','快速排序','堆排序','归并排序','冒泡排序','D') [ RunTime:0.0276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004216s ]
+
+[ 2017-03-03T22:03:58+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002241s ]
+SQL: SHOW COLUMNS FROM `problem` [ RunTime:0.0950s ]
+SQL: UPDATE `problem` SET `tkid`='13',`content`='以下排序最慢的是',`A`='快速排序',`B`='堆排序',`C`='希尔排序',`D`='冒泡排序',`answer`='D' WHERE `pid` = 1 [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004406s ]
+
+[ 2017-03-03T22:04:33+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002025s ]
+SQL: SHOW COLUMNS FROM `problem` [ RunTime:0.0701s ]
+SQL: INSERT INTO `problem` (`pid`,`tkid`,`content`,`A`,`B`,`C`,`D`,`answer`) VALUES ('0','13','1','2','3','4','5','6') [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003475s ]
+
+[ 2017-03-03T22:04:41+08:00 ] ::1 /AO/index.php/Admin/Test/deleteProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003383s ]
+ERR: 非法操作:deleteProblem
+
+[ 2017-03-03T22:06:03+08:00 ] ::1 /AO/index.php/Admin/Test/deleteProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001961s ]
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\AO\Application\Admin\Controller\TestController.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `problem` [ RunTime:0.0256s ]
+SQL: DELETE FROM `problem` WHERE `pid` = null [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001668s ]
+
+[ 2017-03-03T22:07:17+08:00 ] ::1 /AO/index.php/Admin/Test/deleteProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002925s ]
+NOTIC: [8] Undefined index: pid C:\xampp\htdocs\AO\Application\Admin\Controller\TestController.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `problem` [ RunTime:0.0179s ]
+SQL: DELETE FROM `problem` WHERE `pid` = null [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001759s ]
+
+[ 2017-03-03T22:07:32+08:00 ] ::1 /AO/index.php/Admin/Test/deleteProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003879s ]
+SQL: SHOW COLUMNS FROM `problem` [ RunTime:0.0264s ]
+SQL: DELETE FROM `problem` WHERE `pid` = 2 [ RunTime:0.0180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001667s ]
+
+[ 2017-03-03T22:36:33+08:00 ] ::1 /AO/index.php/Admin/Test/addoj
+ERR: 非法操作:addoj
+
+[ 2017-03-03T22:36:59+08:00 ] ::1 /AO/index.php/Admin/Test/addoj
+ERR: 非法操作:addoj
+

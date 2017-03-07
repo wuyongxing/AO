@@ -1,0 +1,354 @@
+[ 2017-03-04T10:34:08+08:00 ] ::1 /AO/index.php/Admin/Test/addoj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001393s ]
+
+[ 2017-03-04T10:35:14+08:00 ] ::1 /AO/index.php/Admin/Test/addoj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001422s ]
+
+[ 2017-03-04T11:08:53+08:00 ] ::1 /AO/index.php/Admin/Test/addoj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002031s ]
+SQL: SHOW COLUMNS FROM `oj` [ RunTime:0.0308s ]
+SQL: INSERT INTO `oj` (`oid`,`title`,`content`,`input`,`sample`) VALUES ('0','新增失败','新增失败','新增失败','新增失败') [ RunTime:0.1227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004465s ]
+
+[ 2017-03-04T11:15:00+08:00 ] ::1 /AO/index.php/Admin/Test/addoj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001563s ]
+SQL: SHOW COLUMNS FROM `oj` [ RunTime:0.0630s ]
+SQL: UPDATE `oj` SET `title`='A + B Problem',`content`='Calculate A + B.',`input`='InputEach line will contain two integers A and B. Process to end of file.OutputFor each case, output A + B in one line.',`sample`='Sample Input1 1Sample Output2' WHERE `oid` = 1 [ RunTime:0.1455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003130s ]
+
+[ 2017-03-04T11:16:23+08:00 ] ::1 /AO/index.php/Admin/Test/addoj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002346s ]
+SQL: SHOW COLUMNS FROM `oj` [ RunTime:0.0199s ]
+SQL: UPDATE `oj` SET `title`='A + B Problem',`content`='Calculate A + B.',`input`='InputEach line will contain two integers A and B. Process to end of file.OutputFor each case, output A + B in one line.',`sample`='Sample Input1 1Sample Output2' WHERE `oid` = 1 [ RunTime:0.0593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003326s ]
+
+[ 2017-03-04T11:21:34+08:00 ] ::1 /AO/index.php/Admin/Test/addoj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002012s ]
+SQL: SHOW COLUMNS FROM `oj` [ RunTime:0.0260s ]
+SQL: UPDATE `oj` SET `title`='A + B Problem',`content`='Calculate A + B.',`input`='InputEach line will contain two integers A and B. Process to end of file.OutputFor each case, output A + B in one line.',`sample`='Sample Input1 1Sample Output2' WHERE `oid` = 1 [ RunTime:0.0493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004033s ]
+
+[ 2017-03-04T11:21:43+08:00 ] ::1 /AO/index.php/Admin/Test/deleteoj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002653s ]
+ERR: 非法操作:deleteoj
+
+[ 2017-03-04T11:22:35+08:00 ] ::1 /AO/index.php/Admin/Test/deleteoj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004068s ]
+SQL: SHOW COLUMNS FROM `oj` [ RunTime:0.0132s ]
+SQL: DELETE FROM `oj` WHERE `oid` = 1 [ RunTime:0.0882s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003958s ]
+
+[ 2017-03-04T11:22:59+08:00 ] ::1 /AO/index.php/Admin/Test/addoj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002294s ]
+SQL: SHOW COLUMNS FROM `oj` [ RunTime:0.0190s ]
+SQL: INSERT INTO `oj` (`oid`,`title`,`content`,`input`,`sample`) VALUES ('0','123','123123123','','') [ RunTime:0.0762s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003965s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004087s ]
+
+[ 2017-03-04T11:23:45+08:00 ] ::1 /AO/index.php/Admin/Announcement/doAddAnnouncement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002785s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0243s ]
+SQL: UPDATE `article` SET `title`='21321312122313',`content`='1243123',`uid`='2',`akid`='0' WHERE `aid` = 3 [ RunTime:0.0265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004111s ]
+
+[ 2017-03-04T11:24:29+08:00 ] ::1 /AO/index.php/Admin/Announcement/doAddAnnouncement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001942s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0244s ]
+SQL: UPDATE `article` SET `title`='21321312122313',`content`='1243121311313213131',`uid`='2',`akid`='0' WHERE `aid` = 3 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001609s ]
+
+[ 2017-03-04T11:35:48+08:00 ] ::1 /AO/index.php/Admin/Test/addoj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003032s ]
+SQL: SHOW COLUMNS FROM `oj` [ RunTime:0.0196s ]
+SQL: UPDATE `oj` SET `title`='123',`content`='123123123123',`input`='',`sample`='' WHERE `oid` = 2 [ RunTime:0.0363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003841s ]
+
+[ 2017-03-04T11:36:56+08:00 ] ::1 /AO/index.php/Admin/Test/addoj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `oj` [ RunTime:0.0496s ]
+SQL: UPDATE `oj` SET `title`='123',`content`='123<div><br></div><div>123</div>',`input`='',`sample`='' WHERE `oid` = 2 [ RunTime:0.0597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004509s ]
+
+[ 2017-03-04T11:40:52+08:00 ] ::1 /AO/index.php/Admin/Test/addoj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002167s ]
+SQL: SHOW COLUMNS FROM `oj` [ RunTime:0.0134s ]
+SQL: UPDATE `oj` SET `title`='A + B Problem',`content`='Calculate <i>A + B</i>.',`input`='Input<div>Each line will contain two integers <i>A</i> and <i>B</i>. Process to end of file.<br></div><div>Output<br></div><div>For each case, output <i>A + B</i> in one line.<br></div>',`sample`='<div class=\"panel_title\" align=\"left\">Sample Input</div><div class=\"panel_title\" align=\"left\">1 1</div><div class=\"panel_title\" align=\"left\"><div class=\"panel_title\" align=\"left\">Sample Output</div><div class=\"panel_title\" align=\"left\">2</div></div>' WHERE `oid` = 2 [ RunTime:0.0711s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004215s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004322s ]
+
+[ 2017-03-04T11:48:39+08:00 ] ::1 /AO/index.php/Admin/Announcement/doAddAnnouncement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001969s ]
+NOTIC: [8] Undefined index: uid C:\xampp\htdocs\AO\Application\Admin\Controller\AnnouncementController.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0673s ]
+SQL: UPDATE `article` SET `title`=' 全国政协十二届五次会议在京开幕',`content`='<p>凝心聚智谋发展，同心同德铸伟业。</p>
+<p>　　中国人民政治协商会议第十二届全国委员会第五次会议3日下午在人民大会堂开幕。</p>
+<p>　　下午三点整，中国人民政治协商会议第十二届全国委员会第五次会议在人民大会堂开幕。2134名全国政协委员出席大会。</p>
+<p>　　全国政协主席俞正声，全国政协副主席杜青林、韩启德、帕巴拉·格列朗杰、董建华、万钢、林文漪、罗富和、何厚铧、张庆黎、李海峰、陈元、卢展工、周小川、王家瑞、王正伟、马飚、齐续春、陈晓光、马培华、刘晓峰、王钦敏在主席台前排就座。</p>
+<p>　　党和国家领导人习近平、李克强、张德江、刘云山、王岐山、张高丽等在主席台就座，祝贺大会召开。</p>
+<p>　　杜青林宣布大会开幕，全体起立，唱国歌。</p>
+<p>　　大会首先审议通过了政协第十二届全国委员会第五次会议议程。</p>
+<p>　　俞正声代表政协第十二届全国委员会常务委员会作工作报告。</p>
+<p>　　俞正声说，2016年是中华民族伟大复兴征程中十分重要的一年。以习近平同志为核心的中共中央，勇于历史担当，保持战略定力，驾驭复杂局面，引领改革发展，团结带领全党全国各族人民，开启全面建成小康社会决胜阶段伟大进军，打响供给侧结构性改革攻坚之战，取得新的显著成就。中共十八届六中全会深刻分析全面从严治党的形势和任务，就新形势下加强党的建设作出新的重大部署，是统筹推进“五位一体”总体布局和协调推进“四个全面”战略布局的关键举措。全会正式明确习近平总书记的核心地位，体现了党和人民的根本利益，对保证党和国家兴旺发达、长治久安，具有十分重大而深远的意义。在中共中央坚强领导下，政协全国委员会及其常务委员会全面贯彻中共十八大和十八届三中、四中、五中、六中全会精神，深入学习贯彻习近平总书记系列重要讲话精神和治国理政新理念新思想新战略，坚持团结和民主两大主题，围绕中心、服务大局，发挥社会主义协商民主重要渠道和专门协商机构作用，调查研究扎实深入，协商议政成果丰硕，民主监督实效增强，团结联谊广泛拓展，为实现“十三五”良好开局作出重要贡献。</p>
+<p>　　俞正声指出，一年来，常委会在履职过程中，加强统筹谋划，主要从四个方面夯实工作基础：增强同以习近平同志为核心的中共中央保持高度一致的政治自觉；坚持把为“十三五”规划实施建言献策作为工作主线；推进中共中央关于政协协商民主建设重大改革举措落实；强化政协调查研究基础性作用。</p>
+<p>　　俞正声从七个方面总结了过去一年人民政协的工作。贯彻落实新发展理念，紧扣供给侧结构性改革调研议政；大力弘扬中国精神，推动社会主义文化繁荣发展；坚持履职为民，致力民生改善和社会建设；贯彻党的民族政策和宗教政策，促进民族团结、宗教和睦；广泛开展联谊交流，加强同港澳台侨同胞大团结大联合；发挥政协优势，深化对外友好交往；加强自身建设，努力提高政协工作水平。</p>
+<p>　　俞正声指出，2017年是实施“十三五”规划的重要一年、推进供给侧结构性改革的深化之年，中国共产党将召开第十九次全国代表大会。人民政协工作的总体要求是：全面贯彻落实中共十八大和十八届三中、四中、五中、六中全会精神，深入学习贯彻习近平总书记系列重要讲话精神和治国理政新理念新思想新战略，坚持统筹推进“五位一体”总体布局和协调推进“四个全面”战略布局，坚持稳中求进工作总基调，牢固树立和贯彻落实新发展理念，组织参加人民政协的各党派团体、各族各界人士，围绕团结和民主两大主题，认真履行政治协商、民主监督、参政议政职能，把坚持和发展中国特色社会主义作为巩固共同思想政治基础的主轴，把围绕“十三五”规划实施建言献策作为工作主线，着力做好思想引导、汇聚力量、议政建言、服务大局的各项工作，促进经济平稳健康发展和社会和谐稳定，以优异成绩迎接中国共产党十九大胜利召开。</p>
+<p>　　谈到2017年工作部署时，俞正声指出，要进一步打牢团结奋斗的共同思想政治基础；紧紧围绕促进经济平稳健康发展协商议政；努力为维护社会和谐稳定贡献力量；深入开展与港澳同胞、台湾同胞和海外侨胞的团结联谊；积极开展对外友好交往；推进人民政协工作在实践中深化发展。</p>
+<p>　　俞正声强调，中共十八大以来，以习近平同志为核心的中共中央着眼统筹推进“五位一体”总体布局和协调推进“四个全面”战略布局、发展社会主义民主政治，高度重视发挥人民政协民主监督重要作用，提出一系列新思想新观点新要求。中共十八届六中全会对支持和保证人民政协依章程进行民主监督作出部署，中共中央办公厅印发《关于加强和改进人民政协民主监督工作的意见》。这些都为新形势下政协民主监督提供了基本遵循。人民政协要认真贯彻落实中共中央决策部署，自觉服从服务党和国家工作大局，扎实推进民主监督，善监督、真监督，彰显中国共产党领导的多党合作和政治协商制度优势和特色，更好推动中共中央大政方针贯彻落实。</p>
+<p>　　要准确把握人民政协民主监督性质定位；切实突出人民政协民主监督重点；有效运用人民政协民主监督方式方法；始终坚持中国共产党对人民政协民主监督的领导。</p>
+<p>　　俞正声最后说，让我们更加紧密地团结在以习近平同志为核心的中共中央周围，高举中国特色社会主义伟大旗帜，以邓小平理论、“三个代表”重要思想、科学发展观为指导，深入学习贯彻习近平总书记系列重要讲话精神和治国理政新理念新思想新战略，同心同德、锐意进取，为迎接中共十九大胜利召开，为实现“两个一百年”宏伟目标、实现中华民族伟大复兴的中国梦而努力奋斗！</p>
+<p>　　受政协第十二届全国委员会常务委员会委托，全国政协副主席马培华作政协十二届四次会议以来的提案工作情况的报告。政协十二届四次会议以来，政协委员、政协各参加单位和各专门委员会，认真贯彻中共十八大和十八届三中、四中、五中、六中全会精神，紧密团结在以习近平同志为核心的中共中央周围，按照统筹推进“五位一体”总体布局和协调推进“四个全面”战略布局要求，贯彻落实新发展理念，围绕“十三五”规划的实施，深入调查研究，积极建言献策，提交提案5769件。经审查，立案4279件。截至2017年2月20日，99.84%的提案已经办复。</p>
+<p>　　中共中央、全国人大、国务院有关部门负责人应邀列席开幕会。各国驻华使节应邀旁听开幕会。</p>',`uid`=NULL,`akid`='0' WHERE `aid` = 3 [ RunTime:0.0025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002532s ]
+
+[ 2017-03-04T14:40:20+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001871s ]
+SQL: SHOW COLUMNS FROM `problem` [ RunTime:0.0410s ]
+SQL: INSERT INTO `problem` (`pid`,`tkid`,`content`,`A`,`B`,`C`,`D`,`answer`) VALUES ('0','1',' 北京到广州的距离为a,有一辆火车以每小时 15 公里的速度离开北京直奔广州，同时另一辆火车每小时 20 公里的速度从广州开往北京。如果有一只鸟，以 30 公里每小时的速度和两辆火 车同时启动，从北京出发，碰到另一辆车后就向相反的方向返回去飞，就这样依次在两辆火车之间来回地飞，直到两辆火车相遇。请问，这只鸟约飞行了多少公里? ','(1/7)*a','(3/7)*a','(4/7)*a','(5/7)*a','C') [ RunTime:0.1195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004492s ]
+
+[ 2017-03-04T14:41:24+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002192s ]
+SQL: SHOW COLUMNS FROM `problem` [ RunTime:0.0943s ]
+SQL: INSERT INTO `problem` (`pid`,`tkid`,`content`,`A`,`B`,`C`,`D`,`answer`) VALUES ('0','1','有一场演出，共有八位演员A,B,C,D,E,F,G,H参加，对其出场次序有如下要求：BH需在A之后出场，E出场之后BF才能出场，D需要在CH之前，B之后出场，F需要在CD之前出场，G需要在CH之后出场，则下列说法正确的是（） 1. 无法唯一确定 B 第几个出场 2. 无法唯一确定 D 第几个出场 3. 演员的出场次序有且仅有 4 种方案可选 4. 任意一种方案 C 都必然在第 6 位出场 5. 演员的出场次序最多可以有 6 种方案可选 ','1,3','2,5','1,4,5','2,3,4','B') [ RunTime:0.0314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004763s ]
+
+[ 2017-03-04T14:47:43+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002564s ]
+SQL: SHOW COLUMNS FROM `problem` [ RunTime:0.1084s ]
+SQL: INSERT INTO `problem` (`pid`,`tkid`,`content`,`A`,`B`,`C`,`D`,`answer`) VALUES ('0','1','书架上有编号为1-19的19本书，从中拿5本，问5本编号都不相邻的拿法有多少种？ ','2002','3003','11628','12589','A') [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003861s ]
+
+[ 2017-03-04T14:48:17+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002230s ]
+SQL: SHOW COLUMNS FROM `problem` [ RunTime:0.1259s ]
+SQL: INSERT INTO `problem` (`pid`,`tkid`,`content`,`A`,`B`,`C`,`D`,`answer`) VALUES ('0','1',' 递增数列1，3，4，9，10，12，13，…，由一些正整数组成，它们或者是3的幂，或者是若干个不同的3的幂的和，此数列的第100项为() ','729','972','243','981','C') [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003950s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004143s ]
+
+[ 2017-03-04T14:48:49+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001929s ]
+SQL: SHOW COLUMNS FROM `problem` [ RunTime:0.0580s ]
+SQL: INSERT INTO `problem` (`pid`,`tkid`,`content`,`A`,`B`,`C`,`D`,`answer`) VALUES ('0','1','小明的游戏账号密码是一串8位数字，只记前面5个数字为38034.但他肯定，后面3个数字全是奇数， 最后一个数字是5，且后3个数字中相邻数字不相同，小明至少要试多少次才能保证登入（）','20','18','16','15','B') [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003823s ]
+
+[ 2017-03-04T14:49:14+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002133s ]
+SQL: SHOW COLUMNS FROM `problem` [ RunTime:0.0976s ]
+SQL: INSERT INTO `problem` (`pid`,`tkid`,`content`,`A`,`B`,`C`,`D`,`answer`) VALUES ('0','1',' 有 10 粒糖，如果每天至少吃一粒（多不限），吃完为止，求有多少种不同吃法？（ ） ','144','217','','','') [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003998s ]
+
+[ 2017-03-04T14:49:27+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002204s ]
+SQL: SHOW COLUMNS FROM `problem` [ RunTime:0.1016s ]
+SQL: UPDATE `problem` SET `tkid`='1',`content`=' 有 10 粒糖，如果每天至少吃一粒（多不限），吃完为止，求有多少种不同吃法？（ ） ',`A`='144',`B`='217',`C`='512',`D`='640',`answer`='B' WHERE `pid` = 8 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004217s ]
+
+[ 2017-03-04T14:50:34+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002171s ]
+SQL: SHOW COLUMNS FROM `problem` [ RunTime:0.0652s ]
+SQL: INSERT INTO `problem` (`pid`,`tkid`,`content`,`A`,`B`,`C`,`D`,`answer`) VALUES ('0','1',' 一位酒商有 6 桶葡萄酒和啤酒，A、B、C、D、E、F 六个容器的容量分别为 30 升、 32 升、36 升、38 升、40 升、62 升。其中五桶装着葡萄酒，一桶装着啤酒。第一位顾客买走了两桶葡萄酒;第二位顾客所买的葡萄酒是第一位顾客的两倍。请问，哪一个桶里装着啤酒? ','B','C','D','E','A') [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004160s ]
+
+[ 2017-03-04T14:51:39+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002446s ]
+SQL: SHOW COLUMNS FROM `problem` [ RunTime:0.0516s ]
+SQL: INSERT INTO `problem` (`pid`,`tkid`,`content`,`A`,`B`,`C`,`D`,`answer`) VALUES ('0','1',' 关于主对角线（从左上角到右下角）对称的矩阵为对称矩阵；如果一个矩阵中的各个元素取值为0或1，那么该矩阵为01矩阵，求大小为N*N的01对称矩阵的个数？（） ','pow(2,n)','pow(2,n*n/2)','pow(2,(n*n+n)/2)','pow(2,(n*n-n)/2)','D') [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004153s ]
+
+[ 2017-03-04T14:52:36+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001946s ]
+SQL: SHOW COLUMNS FROM `problem` [ RunTime:0.0470s ]
+SQL: INSERT INTO `problem` (`pid`,`tkid`,`content`,`A`,`B`,`C`,`D`,`answer`) VALUES ('0','1',' 平面内有11个点，由它们连成48条不同的直线，由这些点可连成多少个三角形？ ','158','160','162','165','C') [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004998s ]
+
+[ 2017-03-04T14:53:20+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001891s ]
+SQL: SHOW COLUMNS FROM `problem` [ RunTime:0.0888s ]
+SQL: INSERT INTO `problem` (`pid`,`tkid`,`content`,`A`,`B`,`C`,`D`,`answer`) VALUES ('0','1','将原始数据进行集成，变换，维度规约，数值规约是在以下哪个步骤的任务','分类和预测','数据预处理','数据流挖掘','频繁模式挖掘','B') [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003928s ]
+
+[ 2017-03-04T14:55:24+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002026s ]
+SQL: SHOW COLUMNS FROM `problem` [ RunTime:0.0969s ]
+SQL: INSERT INTO `problem` (`pid`,`tkid`,`content`,`A`,`B`,`C`,`D`,`answer`) VALUES ('0','1',' 村长带着4对父子参加爸爸去哪儿第三季第二站某村庄的拍摄。村里为了保护小孩不被拐走有个前年的规矩，那就是吃饭时候小孩左右只能是其他小孩或自己的父母，那么4对父子在圆桌上共有多少种坐法。(旋转一下，每个人面对方向变更后算是一种新的坐法) ','144','240','288','480','A') [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003959s ]
+
+[ 2017-03-04T14:55:52+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002639s ]
+SQL: SHOW COLUMNS FROM `problem` [ RunTime:0.0803s ]
+SQL: INSERT INTO `problem` (`pid`,`tkid`,`content`,`A`,`B`,`C`,`D`,`answer`) VALUES ('0','1',' 某班同学要订A、B、C、D四种报纸，每人至少订一种，最多订四种，那么每个同学有 （）种不同的订报方式？ ','7','12','15','21','D') [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004083s ]
+
+[ 2017-03-04T14:57:14+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002644s ]
+SQL: SHOW COLUMNS FROM `problem` [ RunTime:0.1355s ]
+SQL: INSERT INTO `problem` (`pid`,`tkid`,`content`,`A`,`B`,`C`,`D`,`answer`) VALUES ('0','1','数据库做join操作时，至少要涉及到几张表？','3','1','2','4','B') [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004150s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004256s ]
+
+[ 2017-03-04T14:59:54+08:00 ] ::1 /AO/index.php/Admin/Test/modifyProblem
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001973s ]
+SQL: SHOW COLUMNS FROM `problem` [ RunTime:0.0940s ]
+SQL: INSERT INTO `problem` (`pid`,`tkid`,`content`,`A`,`B`,`C`,`D`,`answer`) VALUES ('0','2',' 如果友元函数重载一个运算符时，其参数表中没有任何参数则说明该运算符是： ','一元','二元','一元和二元','重载失败','C') [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004298s ]
+
+[ 2017-03-04T16:43:12+08:00 ] ::1 /AO/index.php/Admin/Test/doSubmit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001641s ]
+ERR: 非法操作:doSubmit
+
+[ 2017-03-04T16:51:08+08:00 ] ::1 /AO/index.php/Admin/Test/doSubmit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002265s ]
+ERR: 非法操作:doSubmit
+
+[ 2017-03-04T16:51:22+08:00 ] ::1 /AO/index.php/Admin/Test/doSubmit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001695s ]
+ERR: 非法操作:doSubmit
+
+[ 2017-03-04T16:51:33+08:00 ] ::1 /AO/index.php/Admin/Test/doSubmit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001832s ]
+ERR: 非法操作:doSubmit
+
+[ 2017-03-04T17:20:25+08:00 ] ::1 /AO/index.php/Admin/Test/addoj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002074s ]
+SQL: SHOW COLUMNS FROM `oj` [ RunTime:0.0271s ]
+SQL: UPDATE `oj` SET `time`='TimeLimit：1s MemoryLimit：65535K',`title`='A + B Problem',`content`='Calculate &lt;i&gt;A + B&lt;/i&gt;.',`input`='Input&lt;div&gt;Each line will contain two integers &lt;i&gt;A&lt;/i&gt; and &lt;i&gt;B&lt;/i&gt;. Process to end of file.&lt;br&gt;&lt;/div&gt;&lt;div&gt;Output&lt;br&gt;&lt;/div&gt;&lt;div&gt;For each case, output &lt;i&gt;A + B&lt;/i&gt; in one line.&lt;br&gt;&lt;/div&gt;',`sample`='&lt;div&gt;Sample Input&lt;/div&gt;&lt;div&gt;1 1&lt;/div&gt;&lt;div&gt;&lt;div&gt;Sample Output&lt;/div&gt;&lt;div&gt;2&lt;/div&gt;&lt;/div&gt;' WHERE `oid` = 2 [ RunTime:0.0698s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004786s ]
+
+[ 2017-03-04T17:45:36+08:00 ] ::1 /AO/index.php/Admin/Test/addoj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001914s ]
+SQL: SHOW COLUMNS FROM `oj` [ RunTime:0.0137s ]
+SQL: UPDATE `oj` SET `time`='TimeLimit：1s MemoryLimit：65535K',`title`='A + B Problem',`content`='Calculate <i>A + B</i>.',`input`='Input<div>Each line will contain two integers <i>A</i> and <i>B</i>. Process to end of file.<br></div><div>Output<br></div><div>For each case, output <i>A + B</i> in one line.<br></div>',`sample`='<div>Sample Input</div><div>1 1</div><div><div>Sample Output</div><div>2</div></div>' WHERE `oid` = 2 [ RunTime:0.0537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002179s ]
+

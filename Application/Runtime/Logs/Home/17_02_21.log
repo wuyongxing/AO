@@ -1,0 +1,30 @@
+[ 2017-02-21T20:16:45+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002135s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.1903s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 1 AND `password` = '123' AND `isAdmin` = 0  [ RunTime:0.0585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002009s ]
+
+[ 2017-02-21T23:15:52+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001899s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0216s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 1 AND `password` = '123' AND `isAdmin` = 0  [ RunTime:0.0258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003593s ]
+
+[ 2017-02-21T23:41:20+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003652s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0922s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 2 AND `password` = '123' AND `isAdmin` = 1  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001528s ]
+

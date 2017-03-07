@@ -1,0 +1,69 @@
+[ 2017-03-01T12:28:55+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001960s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.1217s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 1 AND `password` = '123' AND `isAdmin` = 0  [ RunTime:0.0392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002710s ]
+
+[ 2017-03-01T12:31:37+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004226s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0179s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 2 AND `password` = '123' AND `isAdmin` = 1  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003373s ]
+
+[ 2017-03-01T12:33:45+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002096s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 1 AND `password` = '123' AND `isAdmin` = 0  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001719s ]
+
+[ 2017-03-01T12:34:58+08:00 ] ::1 /AO/index.php/Home/Meeting/booking?mid=2
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'time' in 'on clause'
+
+[ 2017-03-01T12:35:07+08:00 ] ::1 /AO/index.php/Home/Meeting/booking?mid=1
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'time' in 'on clause'
+
+[ 2017-03-01T12:35:43+08:00 ] ::1 /AO/index.php/Home/Meeting/booking?mid=1
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'time' in 'on clause'
+
+[ 2017-03-01T12:42:03+08:00 ] ::1 /AO/index.php/Home/Meeting/booking?mid=1
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'time' in 'on clause'
+
+[ 2017-03-01T12:43:11+08:00 ] ::1 /AO/index.php/Home/Meeting/booking?mid=1
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'time' in 'on clause'
+
+[ 2017-03-01T12:43:17+08:00 ] ::1 /AO/index.php/Home/Meeting/booking?mid=1
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'time' in 'on clause'
+
+[ 2017-03-01T18:53:57+08:00 ] ::1 /AO/index.php/Home/Meeting/doBooking
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001850s ]
+SQL: SHOW COLUMNS FROM `time` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `time` WHERE `mid` = 2 AND `date` = '2017-03-01' ORDER BY time.from asc  [ RunTime:0.0003s ]
+SQL: INSERT INTO `time` (`mid`,`date`,`from`,`to`,`uid`) VALUES ('2','2017-03-01','1488358800','1488362400','1') [ RunTime:0.0336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004162s ]
+
+[ 2017-03-01T18:59:12+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002877s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0264s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 2 AND `password` = '123' AND `isAdmin` = 1  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001649s ]
+

@@ -1,0 +1,110 @@
+[ 2017-02-19T21:12:51+08:00 ] ::1 /AO/index.php/Admin/Index/doAttendence
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001842s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001147s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001208s ]
+
+[ 2017-02-19T21:13:07+08:00 ] ::1 /AO/index.php/Admin/Index/doAttendence
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001061s ]
+
+[ 2017-02-19T21:41:56+08:00 ] ::1 /AO/index.php/Admin/Index/doAttendence
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001715s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0197s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `attendence` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `attendence` WHERE `uid` = 1 AND `date` = '2017-02-19'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 C:\xampp\htdocs\AO\Application\Admin\Controller\IndexController.class.php 第 30 行.
+SQL: INSERT INTO `attendence` (`uid`,`date`) VALUES ('1','2017-02-19') [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001395s ]
+
+[ 2017-02-19T21:42:30+08:00 ] ::1 /AO/index.php/Admin/Index/doAttendence
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001837s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `attendence` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `attendence` WHERE `uid` = 1 AND `date` = '2017-02-19'  [ RunTime:0.0004s ]
+SQL: UPDATE `attendence` SET `start`='1',`end`='1',`date`='2017-02-19',`uid`='1' WHERE `aid` = 1 [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001498s ]
+
+[ 2017-02-19T21:44:21+08:00 ] ::1 /AO/index.php/Admin/Index/doAttendence
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002088s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0271s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 2  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `attendence` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `attendence` WHERE `uid` = 2 AND `date` = '2017-02-19'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 C:\xampp\htdocs\AO\Application\Admin\Controller\IndexController.class.php 第 30 行.
+SQL: INSERT INTO `attendence` (`uid`,`date`) VALUES ('2','2017-02-19') [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001521s ]
+
+[ 2017-02-19T21:45:38+08:00 ] ::1 /AO/index.php/Admin/Index/doAttendence
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003156s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 2  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `attendence` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `attendence` WHERE `uid` = 2 AND `date` = '2017-02-19'  [ RunTime:0.0004s ]
+SQL: UPDATE `attendence` SET `start`='1',`end`='1',`date`='2017-02-19',`uid`='2' WHERE `aid` = 2 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001352s ]
+
+[ 2017-02-19T21:46:49+08:00 ] ::1 /AO/index.php/Admin/Index/doAttendence
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002278s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 2  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `attendence` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `attendence` WHERE `uid` = 2 AND `date` = '2017-02-19'  [ RunTime:0.0004s ]
+SQL: UPDATE `attendence` SET `start`='1',`end`='1',`date`='2017-02-19',`uid`='2' WHERE `aid` = 2 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002116s ]
+
+[ 2017-02-19T21:46:54+08:00 ] ::1 /AO/index.php/Admin/Index/doAttendence
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002297s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 100  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 C:\xampp\htdocs\AO\Application\Admin\Controller\IndexController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001653s ]
+
+[ 2017-02-19T21:47:26+08:00 ] ::1 /AO/index.php/Admin/Index/doAttendence
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001856s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 1  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002129s ]
+
+[ 2017-02-19T22:34:59+08:00 ] ::1 /AO/index.php/Admin/Index/__Public__/js/laydate.dev.js
+ERR: 非法操作:__Public__
+
+[ 2017-02-19T23:05:01+08:00 ] ::1 /AO/index.php/Admin/Index/findAttendence
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'uid' in where clause is ambiguous
+

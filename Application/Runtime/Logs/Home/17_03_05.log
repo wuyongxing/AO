@@ -1,0 +1,167 @@
+[ 2017-03-05T10:32:34+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002433s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0258s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 1 AND `password` = '123' AND `isAdmin` = 0  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001920s ]
+
+[ 2017-03-05T10:53:37+08:00 ] ::1 /AO/index.php/Home/Test/test
+ERR: 表达式错误:1
+
+[ 2017-03-05T10:54:02+08:00 ] ::1 /AO/index.php/Home/Test/test
+ERR: 表达式错误:1
+
+[ 2017-03-05T10:54:11+08:00 ] ::1 /AO/index.php/Home/Test/test
+ERR: 表达式错误:1
+
+[ 2017-03-05T13:34:43+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001648s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0174s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 1 AND `password` = '123' AND `isAdmin` = 0  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001170s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001216s ]
+
+[ 2017-03-05T15:23:52+08:00 ] ::1 /AO/index.php/Home/Test/doSubmit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002061s ]
+SQL: SHOW COLUMNS FROM `ojrecord` [ RunTime:0.0294s ]
+SQL: INSERT INTO `ojrecord` (`uid`,`oid`,`status`,`date`,`time`,`memory`,`language`) VALUES ('1','2','MLE','1488698632','0.3','65535','C/C++') [ RunTime:0.0537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001914s ]
+
+[ 2017-03-05T19:45:34+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024128s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0181s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 1 AND `password` = '123' AND `isAdmin` = 0  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009741s ]
+
+[ 2017-03-05T21:48:42+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001543s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0452s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 2 AND `password` = '123' AND `isAdmin` = 1  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001288s ]
+
+[ 2017-03-05T21:49:05+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001486s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0255s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 1 AND `password` = '123' AND `isAdmin` = 0  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001972s ]
+
+[ 2017-03-05T22:37:19+08:00 ] ::1 /AO/index.php/Home/Knowledge/addarticle
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002451s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0210s ]
+SQL: INSERT INTO `article` (`uid`,`akid`,`title`,`content`,`date`) VALUES ('1','1',' 179. Largest Number LeetCode ','题意：给出一堆的数字字符串，问把这些字符串连接起来能组成的最大数字是多少。 <br>
+题解：排序，第一位字母按字典序降序，第一位字母相同的s1和s2，那就比较s1+s2 和 s2 + s1的大小来降序排列，然后按排好序的顺序连起来就是最大的数字。注意前导0的问题。<div><div>class Solution {</div><div>public:</div><div>&nbsp; &nbsp; static bool cmp(int a,int b)</div><div>&nbsp; &nbsp; {</div><div>&nbsp; &nbsp; &nbsp; &nbsp; string s1 = to_string(a);</div><div>&nbsp; &nbsp; &nbsp; &nbsp; string s2 = to_string(b);</div><div>&nbsp; &nbsp; &nbsp; &nbsp; if(s1[0] == s2[0])</div><div>&nbsp; &nbsp; &nbsp; &nbsp; {</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; string ss1 = s1 + s2;</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; string ss2 = s2 + s1;</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return atoll(ss1.c_str()) &gt; atoll(ss2.c_str());</div><div>&nbsp; &nbsp; &nbsp; &nbsp; }</div><div>&nbsp; &nbsp; &nbsp; &nbsp; else return s1[0] &gt; s2[0];</div><div>&nbsp; &nbsp; }</div><div>&nbsp; &nbsp; string largestNumber(vector&lt;int&gt;&amp; nums) {</div><div>&nbsp; &nbsp; &nbsp; &nbsp; sort(nums.begin(),nums.end(),cmp);</div><div>&nbsp; &nbsp; &nbsp; &nbsp; string ans = \"\";</div><div>&nbsp; &nbsp; &nbsp; &nbsp; for(int i = 0; i &lt; nums.size(); i++)</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ans += to_string(nums[i]);</div><div>&nbsp; &nbsp; &nbsp; &nbsp; string anss = \"\";</div><div>&nbsp; &nbsp; &nbsp; &nbsp; for(int i = 0; i &lt; ans.length(); i++)</div><div>&nbsp; &nbsp; &nbsp; &nbsp; {</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if(ans[i] != \'0\')</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; anss = ans.substr(i);</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; break;</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</div><div>&nbsp; &nbsp; &nbsp; &nbsp; }</div><div>&nbsp; &nbsp; &nbsp; &nbsp; if(anss == \"\") anss = \"0\";</div><div>&nbsp; &nbsp; &nbsp; &nbsp; return anss;</div><div>&nbsp; &nbsp; }</div><div>};</div></div>','2017-03-05 22:03:19') [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001821s ]
+
+[ 2017-03-05T22:46:56+08:00 ] ::1 /AO/index.php/Home/Knowledge/addarticle
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002447s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0261s ]
+SQL: UPDATE `article` SET `uid`='1',`akid`='1',`title`=' 179. Largest Number LeetCode ',`content`='题意：给出一堆的数字字符串，问把这些字符串连接起来能组成的最大数字是多少。 <br>
+题解：排序，第一位字母按字典序降序，第一位字母相同的s1和s2，那就比较s1+s2 和 s2 + s1的大小来降序排列，然后按排好序的顺序连起来就是最大的数字。注意前导0的问题。<div>\"测试引号\",\"测试引号\"注意前导0的问题。</div>',`date`='2017-03-05 22:03:56' WHERE `aid` = 5 [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002148s ]
+
+[ 2017-03-05T22:51:47+08:00 ] ::1 /AO/index.php/Home/Knowledge/addarticle
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003343s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0241s ]
+SQL: UPDATE `article` SET `uid`='1',`akid`='1',`title`=' 179. Largest Number LeetCode ',`content`='题意：给出一堆的数字字符串，问把这些字符串连接起来能组成的最大数字是多少。 <br>
+题解：排序，第一位字母按字典序降序，第一位字母相同的s1和s2，那就比较s1+s2 和 s2 + s1的大小来降序排列，然后按排好序的顺序连起来就是最大的数字。注意前导0的问题。<div></div><div>
+<pre>class Solution {
+public:
+    static bool cmp(int a,int b)
+    {
+        string s1 = to_string(a);
+        string s2 = to_string(b);
+        if(s1[0] == s2[0])
+        {
+            string ss1 = s1 + s2;
+            string ss2 = s2 + s1;
+            return atoll(ss1.c_str()) &gt; atoll(ss2.c_str());
+        }
+        else return s1[0] &gt; s2[0];
+    }
+    string largestNumber(vector<int>&amp; nums) {
+        sort(nums.begin(),nums.end(),cmp);
+        string ans = \"\";
+        for(int i = 0; i &lt; nums.size(); i++)
+            ans += to_string(nums[i]);
+        string anss = \"\";
+        for(int i = 0; i &lt; ans.length(); i++)
+        {
+            if(ans[i] != \'0\')
+            {
+                anss = ans.substr(i);
+                break;
+            }
+        }
+        if(anss == \"\") anss = \"0\";
+        return anss;
+    }
+};
+</int></pre></div>',`date`='2017-03-05 22:03:47' WHERE `aid` = 5 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001333s ]
+
+[ 2017-03-05T22:53:11+08:00 ] ::1 /AO/index.php/Home/Knowledge/addarticle
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002354s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0183s ]
+SQL: UPDATE `article` SET `uid`='1',`akid`='2',`title`=' 179. Largest Number LeetCode ',`content`='题意：给出一堆的数字字符串，问把这些字符串连接起来能组成的最大数字是多少。 <br>
+题解：排序，第一位字母按字典序降序，第一位字母相同的s1和s2，那就比较s1+s2 和 s2 + s1的大小来降序排列，然后按排好序的顺序连起来就是最大的数字。注意前导0的问题。<div></div>',`date`='2017-03-05 22:03:11' WHERE `aid` = 5 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001147s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001190s ]
+
+[ 2017-03-05T22:55:36+08:00 ] ::1 /AO/index.php/Home/Knowledge/addarticle
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007184s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0294s ]
+SQL: UPDATE `article` SET `uid`='1',`akid`='1',`title`=' 179. Largest Number LeetCode ',`content`='题意：给出一堆的数字字符串，问把这些字符串连接起来能组成的最大数字是多少。 <br>
+题解：排序，第一位字母按字典序降序，第一位字母相同的s1和s2，那就比较s1+s2 和 s2 + s1的大小来降序排列，然后按排好序的顺序连起来就是最大的数字。注意前导0的问题。<div></div>',`date`='2017-03-05 22:03:36' WHERE `aid` = 5 [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002189s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002352s ]
+
+[ 2017-03-05T22:58:53+08:00 ] ::1 /AO/index.php/Home/Knowledge/addarticle
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001775s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0861s ]
+SQL: INSERT INTO `article` (`uid`,`akid`,`title`,`content`,`date`) VALUES ('1','2','相亲贴','本人25岁<div>身高180cm</div><div>性格活泼开朗</div><div>希望寻找一位姑娘共度余生</div>','2017-03-05 22:03:53') [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001415s ]
+

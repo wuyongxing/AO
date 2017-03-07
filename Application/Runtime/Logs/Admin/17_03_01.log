@@ -1,0 +1,62 @@
+[ 2017-03-01T19:23:05+08:00 ] ::1 /AO/index.php/Admin/Meeting/dele
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002118s ]
+SQL: SHOW COLUMNS FROM `meeting` [ RunTime:0.0186s ]
+SQL: DELETE FROM `meeting` WHERE `mid` = 3 [ RunTime:0.0535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003928s ]
+
+[ 2017-03-01T19:59:08+08:00 ] ::1 /AO/index.php/Admin/Meeting/modify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002010s ]
+ERR: 非法操作:modify
+
+[ 2017-03-01T20:00:52+08:00 ] ::1 /AO/index.php/Admin/Meeting/modify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002466s ]
+SQL: SHOW COLUMNS FROM `meeting` [ RunTime:0.0127s ]
+SQL: UPDATE `meeting` SET `meetingroom`='叶落乌啼',`container`='18人',`address`='三楼' WHERE `mid` = 0 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001627s ]
+
+[ 2017-03-01T20:01:27+08:00 ] ::1 /AO/index.php/Admin/Meeting/modify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001966s ]
+SQL: SHOW COLUMNS FROM `meeting` [ RunTime:0.0132s ]
+SQL: UPDATE `meeting` SET `meetingroom`='叶落乌啼',`container`='18人',`address`='三楼' WHERE `mid` = 0 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001596s ]
+
+[ 2017-03-01T20:02:10+08:00 ] ::1 /AO/index.php/Admin/Meeting/modify
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002107s ]
+SQL: SHOW COLUMNS FROM `meeting` [ RunTime:0.0123s ]
+SQL: UPDATE `meeting` SET `meetingroom`='叶落乌啼',`container`='18人',`address`='三楼' WHERE `mid` = 2 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001612s ]
+
+[ 2017-03-01T20:05:49+08:00 ] ::1 /AO/index.php/Admin/Meeting/addMeeting
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'meetingroom' cannot be null
+
+[ 2017-03-01T20:07:16+08:00 ] ::1 /AO/index.php/Admin/Meeting/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002382s ]
+SQL: SHOW COLUMNS FROM `meeting` [ RunTime:0.0163s ]
+SQL: INSERT INTO `meeting` (`meetingroom`,`container`,`address`) VALUES ('桃花潭水','4人','二楼') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001966s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002022s ]
+
+[ 2017-03-01T20:07:49+08:00 ] ::1 /AO/index.php/Admin/Index/announcementList
+ERR: 非法操作:announcementList
+

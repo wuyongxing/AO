@@ -1,0 +1,36 @@
+[ 2017-02-20T21:34:41+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002844s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.3183s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 3 AND `password` = '123' AND `isAdmin` = 2  [ RunTime:0.4384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001301s ]
+
+[ 2017-02-20T21:38:27+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003686s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0753s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 1 AND `password` = '123' AND `isAdmin` = 0  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002550s ]
+
+[ 2017-02-20T21:48:16+08:00 ] ::1 /AO/index.php/Home/Index/attendence
+ERR: 非法操作:attendence
+
+[ 2017-02-20T21:48:32+08:00 ] ::1 /AO/index.php/Home/Index/findAttendence
+ERR: 非法操作:findAttendence
+
+[ 2017-02-20T21:53:30+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001219s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0254s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 1 AND `password` = '123' AND `isAdmin` = 0  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000982s ]
+

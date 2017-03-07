@@ -1,0 +1,11 @@
+[ 2017-02-22T09:07:33+08:00 ] ::1 /AO/index.php/Admin/Index/doAddAnnouncement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001881s ]
+NOTIC: [8] Undefined index: uid C:\xampp\htdocs\AO\Application\Admin\Controller\IndexController.class.php 第 117 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0515s ]
+SQL: UPDATE `article` SET `title`='test',`content`='123<div>123</div><div><br></div><div>123</div>',`uid`=NULL,`akid`='1' WHERE `aid` = 1 [ RunTime:0.0454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002596s ]
+

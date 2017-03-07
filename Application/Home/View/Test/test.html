@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>黑龙江节点动画</title>
+
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="__ROOT__/Public/bootstrap-3.3.5-dist/css/bootstrap.min.css">
+
+    <!-- 可选的Bootstrap主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="__ROOT__/Public/bootstrap-3.3.5-dist/css/bootstrap-theme.min.css">
+
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="__ROOT__/Public/jquery/jquery-1.10.1.min.js"></script>
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="__ROOT__/Public/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        var index = 1;
+        var total = parseInt($('#total').val());
+        $('#1').css('display','block');
+        $('#progress').html("<h4>1/"+total+"</h4>");
+        $('#pre').click(function(){
+          if(index == 1) 
+            return;
+          index--;
+          $("next").text("下一题");
+          $('#progress').html("<h4>"+index+"/"+total+"</h4>");
+          $('#'+ (index)).css('display','block');
+          $('#'+ (index + 1)).css('display','none');
+        });
+
+        $('#next').click(function(){
+          index++;
+          if(index == total)
+          {
+            $(this).text("提交");
+          }
+          else if(index == (total + 1))
+          {
+            var score = 0;
+            //var pid = [];
+            for(var i = 1; i <= total; i++)
+            {
+              var answer = $('#'+i).attr('answer');
+              //pid.push($('#'+i).attr('pid'));
+              var res = $('input:radio[name='+i+']:checked').val();
+              if(answer == res)
+                score++;
+            }
+            //$.post("__APP__/Home/Test/score",{},function(){});
+            $('#problem').css('display','none');
+            $('#score').css('display','block');
+            var text = "<h2>专项训练</h2><h3>正确题数:"+score+"/"+total+"</h3><h3>得分:"+score*5+"</h3>"
+            $('#pingfen').html(text);
+            return;
+          }
+          $('#progress').html("<h4>"+index+"/"+total+"</h4>");
+          $('#'+ (index - 1)).css('display','none');
+          $('#'+ (index)).css('display','block');
+        });
+
+        $('#intocorrect').click(function(){
+          $('#score').css('display','none');
+          $('#correct').css('display','block');
+          cindex = 1;
+          $('#c1').css('display','block');
+          $('#cprogress').html("<h4>1/"+total+"</h4>");
+        });
+
+        $('#cpre').click(function(){
+          if(cindex == 1) 
+            return;
+          cindex--;
+          $("cnext").text("下一题");
+          $('#cprogress').html("<h4>"+cindex+"/"+total+"</h4>");
+          $('#c'+ (cindex)).css('display','block');
+          $('#c'+ (cindex + 1)).css('display','none');
+        });
+
+        $('#cnext').click(function(){
+          if(cindex == total)
+            return;
+          cindex++;
+          $('#cprogress').html("<h4>"+cindex+"/"+total+"</h4>");
+          $('#c'+ (cindex - 1)).css('display','none');
+          $('#c'+ (cindex)).css('display','block');
+        });
+      });
+    </script>
+    <style type="text/css">
+        .nav li a{
+            color: #fff;
+        }
+    </style>
+</head>
+<body style="background-image: url(__ROOT__/Public/img/bg.png);background-repeat:no-repeat; background-size: 100% 900px">
+    <div class="container">
+        <div class="row" style="margin-top: 2%;">
+            <div class="col-md-9">
+            <h2 style="color:white; text-align: center; margin-left: 34%;">
+                黑龙江节点动画有限公司
+            </h2>
+            </div>
+            <div class="col-md-1" style="margin-top: 2%; padding-left: 5%;">
+              <img src="{$pic}" style="width: 30px;height: 30px;"/>
+            </div>
+            <div class="col-md-2" style="margin-top: 2%;">
+              <a href="__APP__/Home/Person/index" style="text-decoration: none; color:white;"><h4>hi,{$username}</h4></a>
+            </div>
+        </div>
+        <div class="row">
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation" class="active"><a href="__APP__/Home/Test/index">专项练习</a></li>
+              <li role="presentation"><a href="__APP__/Home/Test/ojlist">在线编程</a></li>
+              <li role="presentation"><a href="__APP__/Home/Test/status">在线编程提交状态</a></li>
+              <li role="presentation"><a href="__APP__/Home/Test/mydata">我的数据</a></li>
+              <li role="presentation"><a href="__APP__/Home/Login/logout">注销用户</a></li>
+            </ul>
+        </div>
+        <div class="row" id="problem" style="background-color: #fff; margin-top: 1%; height: 700px;">
+            <div class="col-md-12" style="text-align: center;">
+              <h2>
+                专项练习
+              </h2>
+            </div>
+            <div class="col-md-8 col-md-offset-2" style="border: 2px solid #ddd; border-radius: 10px; padding-left: 3%;">
+              <input type="hidden" id="total" value="{$total}">
+              <div class="col-md-2 col-md-offset-10" id="progress" style="margin-top: 2%;"></div>
+              <foreach name="problem" item="val" key="k">
+                <div class="col-md-12" id="{$k+1}" pid="{$val.pid}" answer="{$val.answer}" style="display: none; margin-top: 1%; margin-bottom: 5%;">
+                  <p>{$val.content}</p>
+                  <input type="radio" name="{$k+1}" value="A">{$val.a}<br>
+                  <input type="radio" name="{$k+1}" value="B">{$val.b}<br>
+                  <input type="radio" name="{$k+1}" value="C">{$val.c}<br>
+                  <input type="radio" name="{$k+1}" value="D">{$val.d}<br>  
+                </div>
+              </foreach>
+            </div>
+            <div class="col-md-12" style="margin-top: 1%; margin-left: 42%;">
+            <button id="pre" class="btn btn-primary">上一题</button>
+            <button id="next" class="btn btn-primary">下一题</button>
+          </div>
+        </div>
+
+        <div class="row" id="score" style="background-color: #fff; margin-top: 1%; height: 700px; display:none;">
+            <div class="col-md-12" style="text-align: center;">
+              <h2>
+                专项练习
+              </h2>
+            </div>
+            <div class="col-md-8 col-md-offset-2" style="border: 2px solid #ddd; border-radius: 10px;">
+              <div class="col-md-6" id="pingfen" style="padding:5% 0% 0% 15%;"></div>
+              <div class="col-md-6" style="padding-left:10%;"><img src="__ROOT__/Public/img/problemdata.png"></div>
+            </div>
+            <div class="col-md-12" style="margin-top: 1%; margin-left: 45%;">
+            <button id="intocorrect" class="btn btn-primary">查看答案</button>
+          </div>
+        </div>
+
+        <div class="row" id="correct" style="background-color: #fff; margin-top: 1%; height: 700px; display:none;">
+            <div class="col-md-12" style="text-align: center;">
+              <h2>
+                专项练习
+              </h2>
+            </div>
+            <div class="col-md-8 col-md-offset-2" style="border: 2px solid #ddd; border-radius: 10px; padding-left: 3%;">
+              <div class="col-md-2 col-md-offset-10" id="cprogress" style="margin-top: 2%;"></div>
+              <foreach name="problem" item="val" key="k">
+                <div class="col-md-12" id="c{$k+1}" pid="{$val.pid}" answer="{$val.answer}" style="display: none; margin-top: 1%; margin-bottom: 5%;">
+                  <p>{$val.content}</p>
+                  <if condition="$val.answer eq A">
+                    <input type="radio" name="c{$k + 1}" checked="checked">{$val.a}<br>
+                  <else />
+                    <input type="radio" name="c{$k + 1}">{$val.a}<br>
+                  </if>
+                  <if condition="$val.answer eq B">
+                    <input type="radio" name="c{$k + 1}" checked="checked">{$val.b}<br>
+                  <else />
+                    <input type="radio" name="c{$k + 1}">{$val.b}<br>
+                  </if>
+                  <if condition="$val.answer eq C">
+                    <input type="radio" name="c{$k + 1}" checked="checked">{$val.c}<br>
+                  <else />
+                    <input type="radio" name="c{$k + 1}">{$val.c}<br>
+                  </if>
+                  <if condition="$val.answer eq D">
+                    <input type="radio" name="c{$k + 1}" checked="checked">{$val.d}<br>
+                  <else />
+                    <input type="radio" name="c{$k + 1}">{$val.d}<br>
+                  </if>  
+                </div>
+              </foreach>
+            </div>
+            <div class="col-md-12" style="margin-top: 1%; margin-left: 42%;">
+            <button id="cpre" class="btn btn-primary">上一题</button>
+            <button id="cnext" class="btn btn-primary">下一题</button>
+          </div>
+        </div>
+        <div class="row">
+            <div class="footer_f">
+                <div class="footer text-center col-sm-offset-3 col-sm-6" style="padding:10px 0; color:#999;">黑龙江节点动画有限公司 版权所有@2016
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

@@ -1,0 +1,141 @@
+[ 2017-02-23T13:20:36+08:00 ] ::1 /AO/index.php/Admin/Announcement/index
+ERR: 无法加载控制器:Announcement
+
+[ 2017-02-23T13:29:17+08:00 ] ::1 /AO/index.php/Admin/Index/findAttendence
+ERR: 模板不存在:./Application/Admin/View/Index/findAttendence.html
+
+[ 2017-02-23T13:29:35+08:00 ] ::1 /AO/index.php/Admin/Index/findAttendence
+ERR: 模板不存在:./Application/Admin/View/Index/findAttendence.html
+
+[ 2017-02-23T13:29:55+08:00 ] ::1 /AO/index.php/Admin/Index/findAttendence
+ERR: 模板不存在:./Application/Admin/View/Index/findAttendence.html
+
+[ 2017-02-23T13:49:52+08:00 ] ::1 /AO/index.php/Admin/Announcement/deleteAnnouncement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002731s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0493s ]
+SQL: DELETE FROM `article` WHERE `aid` = 1 [ RunTime:0.0639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002201s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002367s ]
+
+[ 2017-02-23T13:50:17+08:00 ] ::1 /AO/index.php/Admin/Index/doAddAnnouncement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001342s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0289s ]
+SQL: INSERT INTO `article` (`aid`,`title`,`content`,`uid`,`akid`) VALUES ('0','test','123<div>123</div><div><br></div><div><br></div><div>123</div>','2','0') [ RunTime:0.0295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002403s ]
+
+[ 2017-02-23T13:50:19+08:00 ] ::1 /AO/index.php/Admin/Index/announcementList
+ERR: 模板不存在:./Application/Admin/View/Index/announcementList.html
+
+[ 2017-02-23T13:50:52+08:00 ] ::1 /AO/index.php/Admin/Index/announcementList
+ERR: 模板不存在:./Application/Admin/View/Index/announcementList.html
+
+[ 2017-02-23T13:51:10+08:00 ] ::1 /AO/index.php/Admin/Announcement/doAddAnnouncement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0134s ]
+SQL: INSERT INTO `article` (`aid`,`title`,`content`,`uid`,`akid`) VALUES ('0','test','123<div>123</div><div><br></div><div><br></div><div>123</div>','2','0') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2017-02-23T13:52:54+08:00 ] ::1 /AO/index.php/Admin/Announcement/doAddAnnouncement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0122s ]
+SQL: INSERT INTO `article` (`aid`,`title`,`content`,`uid`,`akid`) VALUES ('0','123','123<div>123</div><div>123</div>','2','0') [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000863s ]
+
+[ 2017-02-23T14:10:54+08:00 ] ::1 /AO/index.php/Admin/Announcement/doAddAnnouncement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002584s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0260s ]
+SQL: UPDATE `article` SET `title`='123asfasfbasflaskhfjkasfasfjhaskjfhkasjhfkas',`content`='
+                    ',`uid`='2',`akid`='0' WHERE `aid` = 4 [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001722s ]
+
+[ 2017-02-23T14:23:09+08:00 ] ::1 /AO/index.php/Admin/Announcement/doAddAnnouncement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001792s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0275s ]
+SQL: UPDATE `article` SET `title`='123asfasfbasflaskhfjkasfasfjhaskjfhkasjhfkas',`content`='121323431212',`uid`='1',`akid`='0' WHERE `aid` = 4 [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001694s ]
+
+[ 2017-02-23T14:23:28+08:00 ] ::1 /AO/index.php/Admin/Announcement/doAddAnnouncement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002453s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0270s ]
+SQL: UPDATE `article` SET `title`='21321312',`content`='
+                    ',`uid`='1',`akid`='0' WHERE `aid` = 3 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001633s ]
+
+[ 2017-02-23T14:35:59+08:00 ] ::1 /AO/index.php/Admin/Announcement/doAddAnnouncement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001929s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0265s ]
+SQL: UPDATE `article` SET `title`='21321312',`content`='123<div>123</div><div><br></div><div>123</div>',`uid`='1',`akid`='0' WHERE `aid` = 3 [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001284s ]
+
+[ 2017-02-23T14:36:12+08:00 ] ::1 /AO/index.php/Admin/Announcement/doAddAnnouncement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002106s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0184s ]
+SQL: UPDATE `article` SET `title`='21321312122313',`content`='
+                    ',`uid`='1',`akid`='0' WHERE `aid` = 3 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001627s ]
+
+[ 2017-02-23T14:37:21+08:00 ] ::1 /AO/index.php/Admin/Announcement/doAddAnnouncement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002819s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0136s ]
+SQL: UPDATE `article` SET `title`='21321312122313',`content`='123<div>123</div><div>123</div><div><br></div><div><br></div><div>13</div>',`uid`='1',`akid`='0' WHERE `aid` = 3 [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002171s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002243s ]
+
+[ 2017-02-23T14:41:53+08:00 ] ::1 /AO/index.php/Admin/Announcement/doAddAnnouncement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002477s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0276s ]
+SQL: UPDATE `article` SET `title`='21321312122313',`content`='123<div>123</div><div>123</div><div><br></div><div><br></div><div>13</div>1231213',`uid`='1',`akid`='0' WHERE `aid` = 3 [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002444s ]
+
+[ 2017-02-23T14:43:37+08:00 ] ::1 /AO/index.php/Admin/Announcement/deleteAnnouncement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002348s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0169s ]
+SQL: DELETE FROM `article` WHERE `aid` = 2 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002332s ]
+

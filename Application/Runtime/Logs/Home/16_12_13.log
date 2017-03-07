@@ -1,0 +1,23 @@
+[ 2016-12-13T20:15:01+08:00 ] ::1 /AO/index.php/Home/Login/groupLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022105s ]
+SQL: SHOW COLUMNS FROM `group` [ RunTime:0.2859s ]
+SQL: SELECT * FROM `group` WHERE `password` = 'yewu'  [ RunTime:0.0186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015196s ]
+
+[ 2016-12-13T20:45:44+08:00 ] ::1 /AO/index.php/Home/Login/groupLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001319s ]
+SQL: SHOW COLUMNS FROM `group` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `group` WHERE `password` = 'yewu'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000879s ]
+
+[ 2016-12-13T20:45:44+08:00 ] ::1 /AO/index.php/Home/NewPerson/index.html
+ERR: 模板不存在:./Application/Home/View/NewPerson/index.html
+

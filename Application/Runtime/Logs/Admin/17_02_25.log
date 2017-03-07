@@ -1,0 +1,373 @@
+[ 2017-02-25T20:50:58+08:00 ] ::1 /AO/index.php/Admin/Index/modifyInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001900s ]
+ERR: 非法操作:modifyInfo
+
+[ 2017-02-25T20:54:01+08:00 ] ::1 /AO/index.php/Admin/Index/modifyInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001740s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0737s ]
+NOTIC: [8] Undefined index: gid C:\xampp\htdocs\AO\Application\Admin\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Undefined index: date C:\xampp\htdocs\AO\Application\Admin\Controller\IndexController.class.php 第 42 行.
+SQL: UPDATE `user` SET `username`='永兴',`phone`='18345151815',`email`='350193001@qq.com',`gid`=NULL,`idcard`='452226199412099213',`background`='学士' WHERE `uid` = 1 [ RunTime:0.1369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003401s ]
+
+[ 2017-02-25T20:55:55+08:00 ] ::1 /AO/index.php/Admin/Index/modifyInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0753s ]
+NOTIC: [8] Undefined index: date C:\xampp\htdocs\AO\Application\Admin\Controller\IndexController.class.php 第 42 行.
+SQL: UPDATE `user` SET `username`='永兴',`phone`='18345151815',`email`='350193001@qq.com',`gid`='2',`idcard`='452226199412099213',`background`='学士' WHERE `uid` = 1 [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002636s ]
+
+[ 2017-02-25T20:56:39+08:00 ] ::1 /AO/index.php/Admin/Index/modifyInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0615s ]
+NOTIC: [8] Undefined index: date C:\xampp\htdocs\AO\Application\Admin\Controller\IndexController.class.php 第 42 行.
+SQL: UPDATE `user` SET `username`='永兴',`phone`='18345151815',`email`='350193001@qq.com',`gid`='1',`idcard`='452226199412099213',`background`='学士' WHERE `uid` = 1 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2017-02-25T20:57:08+08:00 ] ::1 /AO/index.php/Admin/Index/modifyInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001838s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0510s ]
+NOTIC: [8] Undefined index: date C:\xampp\htdocs\AO\Application\Admin\Controller\IndexController.class.php 第 42 行.
+SQL: UPDATE `user` SET `username`='永兴',`phone`='18345151815',`email`='350193001@qq.com',`gid`='1',`idcard`='452226199412099213',`background`='博士' WHERE `uid` = 1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001479s ]
+
+[ 2017-02-25T20:58:06+08:00 ] ::1 /AO/index.php/Admin/Index/modifyInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001635s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0719s ]
+NOTIC: [8] Undefined index: date C:\xampp\htdocs\AO\Application\Admin\Controller\IndexController.class.php 第 42 行.
+SQL: UPDATE `user` SET `username`='永兴',`phone`='18345151815',`email`='350193001@qq.com',`gid`='1',`idcard`='452226199412099213',`background`='博士' WHERE `uid` = 1 [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003149s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003256s ]
+
+[ 2017-02-25T20:59:04+08:00 ] ::1 /AO/index.php/Admin/Index/modifyInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001635s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0293s ]
+SQL: UPDATE `user` SET `username`='永兴',`phone`='18345151815',`email`='350193001@qq.com',`gid`='1',`idcard`='452226199412099213',`age`='1994-12-09',`background`='博士' WHERE `uid` = 1 [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001184s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001228s ]
+
+[ 2017-02-25T21:00:11+08:00 ] ::1 /AO/index.php/Admin/Index/modifyInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.1948s ]
+SQL: UPDATE `user` SET `username`='管理员',`phone`='18345151815',`email`='youthinkwhat@163.com',`gid`='3',`idcard`='23333333',`age`='2000-10-10',`background`='0' WHERE `uid` = 2 [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003790s ]
+
+[ 2017-02-25T21:00:37+08:00 ] ::1 /AO/index.php/Admin/Index/modifyInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001556s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.2044s ]
+SQL: UPDATE `user` SET `username`='管理员',`phone`='18345151815',`email`='youthinkwhat@163.com',`gid`='1',`idcard`='23333333',`age`='2000-10-10',`background`='硕士' WHERE `uid` = 2 [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002123s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002204s ]
+
+[ 2017-02-25T21:01:02+08:00 ] ::1 /AO/index.php/Admin/Index/modifyInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002346s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.1198s ]
+SQL: UPDATE `user` SET `username`='管理员',`phone`='18345151815',`email`='youthinkwhat@163.com',`gid`='1',`idcard`='23333333',`age`='2000-10-10',`background`='硕士' WHERE `uid` = 2 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003119s ]
+
+[ 2017-02-25T21:01:35+08:00 ] ::1 /AO/index.php/Admin/Index/modifyInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001685s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0781s ]
+SQL: UPDATE `user` SET `username`='管理员',`phone`='18345151815',`address`='哈尔滨工业大学一校区二公寓2077',`email`='youthinkwhat@163.com',`gid`='1',`idcard`='23333333',`age`='2000-10-10',`background`='硕士' WHERE `uid` = 2 [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002983s ]
+
+[ 2017-02-25T21:04:18+08:00 ] ::1 /AO/index.php/Admin/Index/modifyInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002192s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.4598s ]
+SQL: UPDATE `user` SET `username`='呵呵',`phone`='123',`address`='123',`email`='123',`gid`='2',`idcard`='123',`age`='1994-12-12',`background`='博士后' WHERE `uid` = 0 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003520s ]
+
+[ 2017-02-25T21:05:05+08:00 ] ::1 /AO/index.php/Admin/Index/doRegister
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001623s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0639s ]
+SQL: INSERT INTO `user` (`username`,`phone`,`address`,`email`,`gid`,`idcard`,`age`,`background`) VALUES ('呵呵','123','123','123','2','123','1994-12-12','博士后') [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002968s ]
+
+[ 2017-02-25T21:30:52+08:00 ] ::1 /AO/index.php/Admin/Group/info?gid=1
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'gid' in where clause is ambiguous
+
+[ 2017-02-25T21:50:56+08:00 ] ::1 /AO/index.php/Admin/Group/modifyGroup?gid=1
+ERR: 非法操作:modifyGroup
+
+[ 2017-02-25T22:26:38+08:00 ] ::1 /AO/index.php/Admin/Group/modifyInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001165s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001223s ]
+
+[ 2017-02-25T22:30:09+08:00 ] ::1 /AO/index.php/Admin/Group/modifyInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002664s ]
+NOTIC: [8] Undefined index: teamleaderid C:\xampp\htdocs\AO\Application\Admin\Controller\GroupController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0167s ]
+SQL: UPDATE `department` SET `teamleaderid`=NULL,`describe`='主要负责公司业务',`detail`='公司的产品。。。。。。。' WHERE `gid` = 1 [ RunTime:0.0148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001551s ]
+
+[ 2017-02-25T22:30:24+08:00 ] ::1 /AO/index.php/Admin/Group/modifyInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002258s ]
+NOTIC: [8] Undefined index: teamleaderid C:\xampp\htdocs\AO\Application\Admin\Controller\GroupController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0150s ]
+SQL: UPDATE `department` SET `teamleaderid`=NULL,`describe`='主要负责公司业务',`detail`='公司的产品就靠我们了' WHERE `gid` = 1 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001381s ]
+
+[ 2017-02-25T22:31:31+08:00 ] ::1 /AO/index.php/Admin/Group/modifyInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001855s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.1438s ]
+SQL: UPDATE `department` SET `teamleaderid`='1',`describe`='主要负责公司业务',`detail`='公司的产品就靠你们了' WHERE `gid` = 1 [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003129s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003242s ]
+
+[ 2017-02-25T22:34:01+08:00 ] ::1 /AO/index.php/Admin/Group/addGroup
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001731s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined variable: department C:\xampp\htdocs\AO\Application\Runtime\Cache\Admin\d247dffc6cefe9c5a4e400f2278f94e2.php 第 69 行.
+NOTIC: [8] Undefined variable: department C:\xampp\htdocs\AO\Application\Runtime\Cache\Admin\d247dffc6cefe9c5a4e400f2278f94e2.php 第 72 行.
+NOTIC: [8] Undefined variable: department C:\xampp\htdocs\AO\Application\Runtime\Cache\Admin\d247dffc6cefe9c5a4e400f2278f94e2.php 第 76 行.
+NOTIC: [8] Undefined variable: department C:\xampp\htdocs\AO\Application\Runtime\Cache\Admin\d247dffc6cefe9c5a4e400f2278f94e2.php 第 80 行.
+NOTIC: [8] Undefined variable: department C:\xampp\htdocs\AO\Application\Runtime\Cache\Admin\d247dffc6cefe9c5a4e400f2278f94e2.php 第 84 行.
+NOTIC: [8] Undefined variable: department C:\xampp\htdocs\AO\Application\Runtime\Cache\Admin\d247dffc6cefe9c5a4e400f2278f94e2.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001161s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001206s ]
+
+[ 2017-02-25T22:35:27+08:00 ] ::1 /AO/index.php/Admin/Group/doAddGroup
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002055s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0692s ]
+SQL: INSERT INTO `department` (`teamleaderid`,`describe`,`detail`) VALUES ('1','多模','多模') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004411s ]
+
+[ 2017-02-25T22:36:11+08:00 ] ::1 /AO/index.php/Admin/Group/modifyInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002085s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0569s ]
+SQL: UPDATE `department` SET `teamleaderid`='1',`describe`='多模',`detail`='多模' WHERE `gid` = 1 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001281s ]
+
+[ 2017-02-25T22:36:47+08:00 ] ::1 /AO/index.php/Admin/Group/modifyInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002699s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0695s ]
+SQL: UPDATE `department` SET `groupname`='多模交互搜索',`teamleaderid`='1',`describe`='多模',`detail`='多模' WHERE `gid` = 1 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002987s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003066s ]
+
+[ 2017-02-25T22:37:59+08:00 ] ::1 /AO/index.php/Admin/Group/modifyInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001760s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0564s ]
+SQL: UPDATE `department` SET `groupname`='多模交互搜索',`teamleaderid`='1',`describe`='多模',`detail`='多模' WHERE `gid` = 1 [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001334s ]
+
+[ 2017-02-25T22:39:04+08:00 ] ::1 /AO/index.php/Admin/Group/modifyInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0923s ]
+SQL: UPDATE `department` SET `groupname`='多模交互搜索',`teamleaderid`='1',`describe`='多模',`detail`='多模' WHERE `gid` = 1 [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003127s ]
+
+[ 2017-02-25T22:43:24+08:00 ] ::1 /AO/index.php/Admin/Group/modifyInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001569s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0957s ]
+SQL: UPDATE `department` SET `groupname`='多模交互搜索',`teamleaderid`='4',`describe`='多模',`detail`='多模' WHERE `gid` = 4 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003983s ]
+
+[ 2017-02-25T22:58:26+08:00 ] ::1 /AO/index.php/Admin/Group/doAddGroup
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001811s ]
+NOTIC: [8] Undefined index: groupame C:\xampp\htdocs\AO\Application\Admin\Controller\GroupController.class.php 第 57 行.
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.1230s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'groupname' cannot be null
+
+[ 2017-02-25T22:58:29+08:00 ] ::1 /AO/index.php/Admin/Group/doAddGroup
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002025s ]
+NOTIC: [8] Undefined index: groupame C:\xampp\htdocs\AO\Application\Admin\Controller\GroupController.class.php 第 57 行.
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0138s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'groupname' cannot be null
+
+[ 2017-02-25T22:59:35+08:00 ] ::1 /AO/index.php/Admin/Group/doAddGroup
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002197s ]
+NOTIC: [8] Undefined index: groupame C:\xampp\htdocs\AO\Application\Admin\Controller\GroupController.class.php 第 57 行.
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0260s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'groupname' cannot be null
+
+[ 2017-02-25T23:02:21+08:00 ] ::1 /AO/index.php/Admin/Group/doAddGroup
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001663s ]
+NOTIC: [8] Undefined index: groupame C:\xampp\htdocs\AO\Application\Admin\Controller\GroupController.class.php 第 57 行.
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0224s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'groupname' cannot be null
+
+[ 2017-02-25T23:03:36+08:00 ] ::1 /AO/index.php/Admin/Group/doaddGroup
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002864s ]
+NOTIC: [8] Undefined index: groupame C:\xampp\htdocs\AO\Application\Admin\Controller\GroupController.class.php 第 57 行.
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0192s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'groupname' cannot be null
+
+[ 2017-02-25T23:04:40+08:00 ] ::1 /AO/index.php/Admin/Group/doAddGroup
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002863s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001671s ]
+
+[ 2017-02-25T23:07:15+08:00 ] ::1 /AO/index.php/Admin/Group/doAddGroup
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002911s ]
+NOTIC: [8] Undefined index: groupame C:\xampp\htdocs\AO\Application\Admin\Controller\GroupController.class.php 第 57 行.
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0683s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'groupname' cannot be null
+
+[ 2017-02-25T23:08:07+08:00 ] ::1 /AO/index.php/Admin/Group/doAddGroup
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001803s ]
+NOTIC: [8] Undefined index: groupame C:\xampp\htdocs\AO\Application\Admin\Controller\GroupController.class.php 第 57 行.
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0672s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'groupname' cannot be null
+
+[ 2017-02-25T23:09:10+08:00 ] ::1 /AO/index.php/Admin/Group/doAddGroup
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003623s ]
+NOTIC: [8] Undefined index: groupame C:\xampp\htdocs\AO\Application\Admin\Controller\GroupController.class.php 第 57 行.
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0777s ]
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'groupname' cannot be null
+
+[ 2017-02-25T23:10:36+08:00 ] ::1 /AO/index.php/Admin/Group/doAddGroup
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004582s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.1140s ]
+SQL: INSERT INTO `department` (`groupname`,`teamleaderid`,`describe`,`detail`) VALUES ('符合','4','123','123') [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003210s ]
+
+[ 2017-02-25T23:11:05+08:00 ] ::1 /AO/index.php/Admin/Group/modifyInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002590s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0902s ]
+SQL: UPDATE `department` SET `groupname`='符合搜索',`teamleaderid`='4',`describe`='阿拉丁',`detail`='写阿拉丁模版导流' WHERE `gid` = 4 [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003231s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003370s ]
+
+[ 2017-02-25T23:11:59+08:00 ] ::1 /AO/index.php/Admin/Group/modifyInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002577s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.1154s ]
+SQL: UPDATE `department` SET `groupname`='复合搜索',`teamleaderid`='4',`describe`='阿拉丁',`detail`='阿拉丁导流' WHERE `gid` = 4 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003149s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003270s ]
+
+[ 2017-02-25T23:13:48+08:00 ] ::1 /AO/index.php/Admin/Group/modifyInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001972s ]
+SQL: SHOW COLUMNS FROM `department` [ RunTime:0.0867s ]
+SQL: UPDATE `department` SET `groupname`='复合搜索',`teamleaderid`='4',`describe`='阿拉丁',`detail`='阿拉丁导流' WHERE `gid` = 5 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001375s ]
+

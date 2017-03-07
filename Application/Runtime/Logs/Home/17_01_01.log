@@ -1,0 +1,10 @@
+[ 2017-01-01T15:56:05+08:00 ] ::1 /AO/index.php/Home/Login/groupLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+SQL: SHOW COLUMNS FROM `group` [ RunTime:0.1593s ]
+SQL: SELECT * FROM `group` WHERE `password` = 'yewu'  [ RunTime:0.0244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000853s ]
+

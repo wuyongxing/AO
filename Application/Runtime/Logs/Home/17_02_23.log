@@ -1,0 +1,190 @@
+[ 2017-02-23T11:24:22+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010311s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.1466s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 1 AND `password` = '123' AND `isAdmin` = 0  [ RunTime:0.1049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002634s ]
+
+[ 2017-02-23T12:31:55+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 1 AND `password` = '123' AND `isAdmin` = 0  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001126s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001179s ]
+
+[ 2017-02-23T13:03:06+08:00 ] ::1 /AO/index.php/Home/Knowledge/index
+ERR: 无法加载控制器:Knowledge
+
+[ 2017-02-23T13:04:43+08:00 ] ::1 /AO/index.php/Home/Knowledge/index
+ERR: 模板不存在:./Application/Home/View/Knowledge/index.html
+
+[ 2017-02-23T13:06:36+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001663s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0271s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 2 AND `password` = '123' AND `isAdmin` = 1  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000862s ]
+
+[ 2017-02-23T13:26:53+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 3 AND `password` = '123' AND `isAdmin` = 2  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000935s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000992s ]
+
+[ 2017-02-23T13:32:36+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0738s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 2 AND `password` = '123' AND `isAdmin` = 1  [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002862s ]
+
+[ 2017-02-23T14:06:18+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002213s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 1 AND `password` = '123' AND `isAdmin` = 0  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002401s ]
+
+[ 2017-02-23T14:06:41+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002689s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 2 AND `password` = '123' AND `isAdmin` = 1  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001704s ]
+
+[ 2017-02-23T14:12:36+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002080s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.8422s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 1 AND `password` = '123' AND `isAdmin` = 0  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001836s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001915s ]
+
+[ 2017-02-23T14:12:36+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002709s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 1 AND `password` = '123' AND `isAdmin` = 0  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001706s ]
+
+[ 2017-02-23T15:02:48+08:00 ] ::1 /AO/index.php/Home/Index/searchPerson
+ERR: 非法操作:searchPerson
+
+[ 2017-02-23T15:04:47+08:00 ] ::1 /AO/index.php/Home/Index/searchPerson
+ERR: 模板不存在:./Application/Home/View/Index/searchPerson.html
+
+[ 2017-02-23T15:13:03+08:00 ] ::1 /AO/index.php/Home/Person/attendence
+ERR: 非法操作:attendence
+
+[ 2017-02-23T15:32:02+08:00 ] ::1 /AO/index.php/Home/Person/findPerson
+ERR: 非法操作:findPerson
+
+[ 2017-02-23T15:34:21+08:00 ] ::1 /AO/index.php/Home/Person/findPerson
+ERR: 非法操作:findPerson
+
+[ 2017-02-23T15:34:59+08:00 ] ::1 /AO/index.php/Home/Index/findPerson
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group on user.gid = group.gid INNER JOIN pkind on user.pkid = pkind.pkid  WHERE ' at line 1
+
+[ 2017-02-23T15:35:54+08:00 ] ::1 /AO/index.php/Home/Index/findPerson
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group ON user.gid = group.gid INNER JOIN pkind ON user.pkid = pkind.pkid  WHERE ' at line 1
+
+[ 2017-02-23T15:39:05+08:00 ] ::1 /AO/index.php/Home/Index/findPerson
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group ON user.gid = group.gid  WHERE user.uid = '1' OR user.username = '1'' at line 1
+
+[ 2017-02-23T15:39:51+08:00 ] ::1 /AO/index.php/Home/Index/findPerson
+ERR: 模板不存在:./Application/Home/View/Index/findPerson.html
+
+[ 2017-02-23T15:41:02+08:00 ] ::1 /AO/index.php/Home/Index/findPerson
+ERR: 非法操作:findPerson
+
+[ 2017-02-23T15:41:17+08:00 ] ::1 /AO/index.php/Home/Index/findPerson
+ERR: 非法操作:findPerson
+
+[ 2017-02-23T15:41:20+08:00 ] ::1 /AO/index.php/Home/Index/findPerson
+ERR: 非法操作:findPerson
+
+[ 2017-02-23T15:43:10+08:00 ] ::1 /AO/index.php/Home/Index/searchPerson
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group ON group.gid = user.gid INNER JOIN pkind ON pkind.pkid = user.pkid  WHERE ' at line 1
+
+[ 2017-02-23T15:43:45+08:00 ] ::1 /AO/index.php/Home/Index/searchPerson
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group ON group.gid = user.gid INNER JOIN pkind ON pkind.pkid = user.pkid  WHERE ' at line 1
+
+[ 2017-02-23T15:47:33+08:00 ] ::1 /AO/index.php/Home/Index/searchPerson
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group ON group.gid = user.gid INNER JOIN pkind ON pkind.pkid = user.pkid  WHERE ' at line 1
+
+[ 2017-02-23T15:49:40+08:00 ] ::1 /AO/index.php/Home/Index/searchPerson
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group ON group.gid = user.gid  WHERE user.uid = '1' OR user.username = '1'' at line 1
+
+[ 2017-02-23T16:11:12+08:00 ] ::1 /AO/index.php/Home/Login/index.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ao.group' doesn't exist
+
+[ 2017-02-23T16:12:38+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002968s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 1 AND `password` = '123' AND `isAdmin` = 0  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001841s ]
+
+[ 2017-02-23T16:21:57+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001815s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 1 AND `password` = '123' AND `isAdmin` = 0  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000853s ]
+
+[ 2017-02-23T16:52:16+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003244s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0518s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 1 AND `password` = '123' AND `isAdmin` = 0  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001765s ]
+
+[ 2017-02-23T17:00:43+08:00 ] ::1 /AO/index.php/Home/Person/attendence
+ERR: 非法操作:attendence
+
+[ 2017-02-23T17:04:02+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001980s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0206s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 1 AND `password` = '123' AND `isAdmin` = 0  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002139s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002196s ]
+

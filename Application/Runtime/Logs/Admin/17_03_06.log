@@ -1,0 +1,10 @@
+[ 2017-03-06T13:42:40+08:00 ] ::1 /AO/index.php/Admin/Index/doRegister
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005428s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.1069s ]
+SQL: INSERT INTO `user` (`username`,`phone`,`address`,`email`,`gid`,`idcard`,`age`,`background`) VALUES ('周杰伦','123456','12213213123123','123456','5','2423423432','1994-12-09','312') [ RunTime:0.0303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001713s ]
+

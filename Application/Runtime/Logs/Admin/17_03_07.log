@@ -1,0 +1,36 @@
+[ 2017-03-07T11:30:20+08:00 ] ::1 /AO/index.php/Admin/Knowledge/article?aid=7
+ERR: 非法操作:article
+
+[ 2017-03-07T11:43:58+08:00 ] ::1 /AO/index.php/Admin/Knowledge/ask
+ERR: 模板不存在:./Application/Admin/View/Knowledge/ask.html
+
+[ 2017-03-07T12:55:58+08:00 ] ::1 /AO/index.php/Admin/Knowledge/addarticle
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001457s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0124s ]
+SQL: UPDATE `article` SET `title`='为什么姚班都选择了出国',`content`='为什么今年姚班的人选择全部出国。123',`date`='2017-03-07 12:03:58' WHERE `aid` = 8 [ RunTime:0.0311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002687s ]
+
+[ 2017-03-07T12:59:13+08:00 ] ::1 /AO/index.php/Admin/Knowledge/addarticle
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001283s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0272s ]
+SQL: UPDATE `article` SET `title`='为什么姚班都选择了出国',`content`='为什么今年姚班的人选择全部出国。',`date`='2017-03-07 12:03:13' WHERE `aid` = 8 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2017-03-07T13:59:54+08:00 ] ::1 /AO/index.php/Admin/Knowledge/deletecomment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0335s ]
+SQL: DELETE FROM `comment` WHERE `cid` = 11 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000851s ]
+
