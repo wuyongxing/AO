@@ -1,0 +1,43 @@
+[ 2017-03-09T17:20:14+08:00 ] ::1 /AO/index.php/Admin/Index/modifyInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002400s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0269s ]
+SQL: UPDATE `user` SET `pkid`='5',`username`='管理员',`phone`='18345151815',`address`='哈尔滨工业大学一校区二公寓2077',`email`='youthinkwhat@163.com',`gid`='3',`idcard`='23333333',`age`='2000-10-10',`background`='硕士' WHERE `uid` = 2 [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001507s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001551s ]
+
+[ 2017-03-09T17:22:13+08:00 ] ::1 /AO/index.php/Admin/Index/info?uid=2
+ERR: XML标签语法错误 : condition="$vo.gid eq $user.gid
+
+[ 2017-03-09T17:24:23+08:00 ] ::1 /AO/index.php/Admin/Index/modifyInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001977s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0130s ]
+SQL: UPDATE `user` SET `pkid`='2',`username`='永兴',`phone`='18345151815',`address`='哈尔滨南岗区',`email`='350193001@qq.com',`gid`='1',`idcard`='452226199412099213',`age`='1994-12-09',`background`='博士' WHERE `uid` = 1 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001607s ]
+
+[ 2017-03-09T17:24:46+08:00 ] ::1 /AO/index.php/Admin/Index/modifyInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001959s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0131s ]
+SQL: UPDATE `user` SET `pkid`='3',`username`='周杰伦',`phone`='123456',`address`='12213213123123',`email`='123456',`gid`='5',`idcard`='2423423432',`age`='1994-12-09',`background`='312' WHERE `uid` = 5 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001611s ]
+
+[ 2017-03-09T17:25:09+08:00 ] ::1 /AO/index.php/Admin/Index/doRegister
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002440s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.1180s ]
+SQL: INSERT INTO `user` (`username`,`pkid`,`phone`,`address`,`email`,`gid`,`idcard`,`age`,`background`) VALUES ('QA','4','12345','121','12','5','1','1','1') [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004903s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005035s ]
+

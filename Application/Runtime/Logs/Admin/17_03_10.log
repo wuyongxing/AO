@@ -1,0 +1,6 @@
+[ 2017-03-10T14:05:19+08:00 ] ::1 /AO/index.php/Admin/Project/todayOnline
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND `end` = '2017-03-10' AND `status` NOT IN ('63')' at line 1
+
+[ 2017-03-10T14:05:25+08:00 ] ::1 /AO/index.php/Admin/Project/todayOnlined
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND `end` = '2017-03-10' AND `status` = 63' at line 1
+

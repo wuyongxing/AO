@@ -1,0 +1,971 @@
+[ 2017-03-09T09:06:39+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002113s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.1041s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 1 AND `password` = '123' AND `isAdmin` = 0  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002612s ]
+
+[ 2017-03-09T12:32:22+08:00 ] ::1 /AO/index.php/Home/Project/index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'project.uid' in 'where clause'
+
+[ 2017-03-09T12:32:51+08:00 ] ::1 /AO/index.php/Home/Project/index
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2017-03-09T12:35:33+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002288s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0528s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 1 AND `password` = '123' AND `isAdmin` = 0  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001612s ]
+
+[ 2017-03-09T13:05:36+08:00 ] ::1 /AO/index.php/Home/Project/newProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002343s ]
+SQL: SHOW COLUMNS FROM `project` [ RunTime:0.0139s ]
+SQL: INSERT INTO `project` (`pmid`,`date`) VALUES ('1','1489035936') [ RunTime:0.0320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001617s ]
+
+[ 2017-03-09T13:22:59+08:00 ] ::1 /AO/index.php/Home/Project/newProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001673s ]
+SQL: SHOW COLUMNS FROM `project` [ RunTime:0.0139s ]
+SQL: INSERT INTO `project` (`content`,`pmid`,`date`) VALUES ('vstar诚信认证','1','1489036979') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `projectuser` [ RunTime:0.0141s ]
+SQL: INSERT INTO `projectuser` (`pid`) VALUES ('2') [ RunTime:0.0722s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003168s ]
+
+[ 2017-03-09T13:35:26+08:00 ] ::1 /AO/index.php/Home/Project/newProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001965s ]
+SQL: SHOW COLUMNS FROM `project` [ RunTime:0.0235s ]
+SQL: UPDATE `project` SET `content`='vstar诚信认证V' WHERE `pid` = 2 [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001299s ]
+
+[ 2017-03-09T13:39:18+08:00 ] ::1 /AO/index.php/Home/Project/newProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001929s ]
+SQL: SHOW COLUMNS FROM `project` [ RunTime:0.0405s ]
+SQL: UPDATE `project` SET `content`='vstar诚信认证' WHERE `pid` = 2 [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001291s ]
+
+[ 2017-03-09T13:41:06+08:00 ] ::1 /AO/index.php/Home/Project/newProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001888s ]
+SQL: SHOW COLUMNS FROM `project` [ RunTime:0.1041s ]
+SQL: UPDATE `project` SET `content`='vstar诚信认证V' WHERE `pid` = 2 [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004246s ]
+
+[ 2017-03-09T13:41:42+08:00 ] ::1 /AO/index.php/Home/Project/newProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002687s ]
+SQL: SHOW COLUMNS FROM `project` [ RunTime:0.0376s ]
+SQL: UPDATE `project` SET `content`='vstar诚信认证' WHERE `pid` = 2 [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001387s ]
+
+[ 2017-03-09T14:44:27+08:00 ] ::1 /AO/index.php/Home/Project/subProject?pid=2
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pknid.pkid' in 'on clause'
+
+[ 2017-03-09T15:06:18+08:00 ] ::1 /AO/index.php/Home/Meeting/doBooking
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001683s ]
+SQL: SHOW COLUMNS FROM `time` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `time` WHERE `mid` = 1 AND `date` = '2017-03-09' ORDER BY time.from asc  [ RunTime:0.0005s ]
+SQL: INSERT INTO `time` (`mid`,`date`,`from`,`to`,`uid`) VALUES ('1','2017-03-09','0','0','1') [ RunTime:0.0233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001286s ]
+
+[ 2017-03-09T15:06:23+08:00 ] ::1 /AO/index.php/Home/Meeting/deleBooking
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001936s ]
+SQL: SHOW COLUMNS FROM `time` [ RunTime:0.0151s ]
+SQL: DELETE FROM `time` WHERE `tid` = 5 [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001448s ]
+
+[ 2017-03-09T15:43:00+08:00 ] ::1 /AO/index.php/Home/Project/addPerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003143s ]
+SQL: SHOW COLUMNS FROM `projectuser` [ RunTime:0.0137s ]
+SQL: INSERT INTO `projectuser` (`uid`,`pid`) VALUES ('4','0') [ RunTime:0.0622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003870s ]
+
+[ 2017-03-09T15:45:36+08:00 ] ::1 /AO/index.php/Home/Project/deletePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002581s ]
+SQL: SHOW COLUMNS FROM `projectuser` [ RunTime:0.0209s ]
+SQL: SELECT * FROM `projectuser` WHERE `uid` = 0 AND `pid` = 2  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 C:\xampp\htdocs\AO\Application\Home\Controller\ProjectController.class.php 第 92 行.
+SQL: DELETE FROM `projectuser` WHERE `uid` = 0 AND `pid` = 2 AND `puid` = null [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002874s ]
+
+[ 2017-03-09T15:45:49+08:00 ] ::1 /AO/index.php/Home/Project/addPerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002523s ]
+SQL: SHOW COLUMNS FROM `projectuser` [ RunTime:0.0173s ]
+SQL: INSERT INTO `projectuser` (`uid`,`pid`) VALUES ('5','2') [ RunTime:0.0695s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004831s ]
+
+[ 2017-03-09T15:46:17+08:00 ] ::1 /AO/index.php/Home/Project/deletePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001982s ]
+SQL: SHOW COLUMNS FROM `projectuser` [ RunTime:0.0696s ]
+SQL: SELECT * FROM `projectuser` WHERE `uid` = 4 AND `pid` = 2  [ RunTime:0.0006s ]
+SQL: DELETE FROM `projectuser` WHERE `uid` = 4 AND `pid` = 2 AND `puid` = 2 [ RunTime:0.0425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004240s ]
+
+[ 2017-03-09T16:46:30+08:00 ] ::1 /AO/index.php/Home/Project/addPerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003226s ]
+SQL: SHOW COLUMNS FROM `projectuser` [ RunTime:0.0523s ]
+SQL: INSERT INTO `projectuser` (`uid`,`pid`) VALUES ('0','0') [ RunTime:0.0398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003945s ]
+
+[ 2017-03-09T16:50:53+08:00 ] ::1 /AO/index.php/Home/Project/addPerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002855s ]
+SQL: SHOW COLUMNS FROM `projectuser` [ RunTime:0.0148s ]
+SQL: INSERT INTO `projectuser` (`uid`,`pid`) VALUES ('4','0') [ RunTime:0.0493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001674s ]
+
+[ 2017-03-09T16:53:46+08:00 ] ::1 /AO/index.php/Home/Project/addPerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003842s ]
+SQL: SHOW COLUMNS FROM `projectuser` [ RunTime:0.0773s ]
+SQL: INSERT INTO `projectuser` (`uid`,`pid`) VALUES ('4','2') [ RunTime:0.2036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004058s ]
+
+[ 2017-03-09T16:54:40+08:00 ] ::1 /AO/index.php/Home/Project/deletePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003806s ]
+SQL: SHOW COLUMNS FROM `projectuser` [ RunTime:0.0525s ]
+SQL: SELECT * FROM `projectuser` WHERE `uid` = 4 AND `pid` = 2  [ RunTime:0.0005s ]
+SQL: DELETE FROM `projectuser` WHERE `uid` = 4 AND `pid` = 2 AND `puid` = 6 [ RunTime:0.0621s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004155s ]
+
+[ 2017-03-09T16:59:15+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001421s ]
+
+[ 2017-03-09T16:59:17+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002794s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001750s ]
+
+[ 2017-03-09T16:59:17+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001493s ]
+
+[ 2017-03-09T16:59:17+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001864s ]
+
+[ 2017-03-09T16:59:18+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001975s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001436s ]
+
+[ 2017-03-09T17:00:05+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001974s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001470s ]
+
+[ 2017-03-09T17:00:55+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001926s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001442s ]
+
+[ 2017-03-09T17:01:03+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001952s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001488s ]
+
+[ 2017-03-09T17:01:04+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001508s ]
+
+[ 2017-03-09T17:01:04+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001933s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001398s ]
+
+[ 2017-03-09T17:01:04+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001724s ]
+
+[ 2017-03-09T17:01:04+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001670s ]
+
+[ 2017-03-09T17:01:05+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001599s ]
+
+[ 2017-03-09T17:01:05+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001658s ]
+
+[ 2017-03-09T17:01:05+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001648s ]
+
+[ 2017-03-09T17:01:05+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001960s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001400s ]
+
+[ 2017-03-09T17:01:05+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001444s ]
+
+[ 2017-03-09T17:01:05+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002362s ]
+
+[ 2017-03-09T17:01:06+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002596s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002004s ]
+
+[ 2017-03-09T17:01:06+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001458s ]
+
+[ 2017-03-09T17:01:06+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001375s ]
+
+[ 2017-03-09T17:01:06+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001669s ]
+
+[ 2017-03-09T17:01:06+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002473s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001926s ]
+
+[ 2017-03-09T17:01:06+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001940s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001430s ]
+
+[ 2017-03-09T17:01:07+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001582s ]
+
+[ 2017-03-09T17:01:07+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001646s ]
+
+[ 2017-03-09T17:01:07+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001910s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001485s ]
+
+[ 2017-03-09T17:01:07+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001428s ]
+
+[ 2017-03-09T17:01:07+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001597s ]
+
+[ 2017-03-09T17:01:07+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001994s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001442s ]
+
+[ 2017-03-09T17:01:08+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002759s ]
+
+[ 2017-03-09T17:01:08+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001694s ]
+
+[ 2017-03-09T17:01:08+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001424s ]
+
+[ 2017-03-09T17:01:08+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001673s ]
+
+[ 2017-03-09T17:01:08+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001410s ]
+
+[ 2017-03-09T17:01:08+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002991s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001718s ]
+
+[ 2017-03-09T17:01:09+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001435s ]
+
+[ 2017-03-09T17:01:09+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001943s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001765s ]
+
+[ 2017-03-09T17:01:10+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001374s ]
+
+[ 2017-03-09T17:01:10+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001374s ]
+
+[ 2017-03-09T17:01:10+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002069s ]
+
+[ 2017-03-09T17:01:10+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001983s ]
+
+[ 2017-03-09T17:01:11+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001629s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001691s ]
+
+[ 2017-03-09T17:01:11+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002747s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001461s ]
+
+[ 2017-03-09T17:01:11+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001359s ]
+
+[ 2017-03-09T17:01:11+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001430s ]
+
+[ 2017-03-09T17:01:11+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002207s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002294s ]
+
+[ 2017-03-09T17:01:12+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001848s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001684s ]
+
+[ 2017-03-09T17:01:12+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001412s ]
+
+[ 2017-03-09T17:01:12+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001965s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001386s ]
+
+[ 2017-03-09T17:01:12+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001421s ]
+
+[ 2017-03-09T17:01:12+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001911s ]
+
+[ 2017-03-09T17:01:12+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001435s ]
+
+[ 2017-03-09T17:01:13+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001644s ]
+
+[ 2017-03-09T17:01:13+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001777s ]
+
+[ 2017-03-09T17:01:13+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001956s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001378s ]
+
+[ 2017-03-09T17:01:13+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001996s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001723s ]
+
+[ 2017-03-09T17:01:14+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002052s ]
+
+[ 2017-03-09T17:01:14+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001932s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001752s ]
+
+[ 2017-03-09T17:01:14+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002617s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001517s ]
+
+[ 2017-03-09T17:01:14+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001479s ]
+
+[ 2017-03-09T17:01:15+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001444s ]
+
+[ 2017-03-09T17:01:15+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001492s ]
+
+[ 2017-03-09T17:01:16+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001969s ]
+
+[ 2017-03-09T17:01:40+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001498s ]
+
+[ 2017-03-09T17:11:56+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001878s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0268s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 2 AND `password` = '123' AND `isAdmin` = 1  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001950s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002034s ]
+
+[ 2017-03-09T17:25:22+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002096s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 1 AND `password` = '123' AND `isAdmin` = 0  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001665s ]
+
+[ 2017-03-09T17:28:10+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002350s ]
+SQL: SHOW COLUMNS FROM `subproject` [ RunTime:0.0259s ]
+NOTIC: [8] Undefined variable: subproject C:\xampp\htdocs\AO\Application\Home\Controller\ProjectController.class.php 第 122 行.
+
+[ 2017-03-09T17:28:11+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+SQL: SHOW COLUMNS FROM `subproject` [ RunTime:0.0638s ]
+NOTIC: [8] Undefined variable: subproject C:\xampp\htdocs\AO\Application\Home\Controller\ProjectController.class.php 第 122 行.
+
+[ 2017-03-09T17:28:11+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003585s ]
+SQL: SHOW COLUMNS FROM `subproject` [ RunTime:0.0111s ]
+NOTIC: [8] Undefined variable: subproject C:\xampp\htdocs\AO\Application\Home\Controller\ProjectController.class.php 第 122 行.
+
+[ 2017-03-09T17:28:11+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002347s ]
+SQL: SHOW COLUMNS FROM `subproject` [ RunTime:0.0077s ]
+NOTIC: [8] Undefined variable: subproject C:\xampp\htdocs\AO\Application\Home\Controller\ProjectController.class.php 第 122 行.
+
+[ 2017-03-09T17:28:18+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002722s ]
+SQL: SHOW COLUMNS FROM `subproject` [ RunTime:0.0363s ]
+NOTIC: [8] Undefined variable: subproject C:\xampp\htdocs\AO\Application\Home\Controller\ProjectController.class.php 第 122 行.
+
+[ 2017-03-09T17:28:32+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001938s ]
+SQL: SHOW COLUMNS FROM `subproject` [ RunTime:0.0266s ]
+NOTIC: [8] Undefined variable: subproject C:\xampp\htdocs\AO\Application\Home\Controller\ProjectController.class.php 第 122 行.
+
+[ 2017-03-09T17:28:33+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002259s ]
+SQL: SHOW COLUMNS FROM `subproject` [ RunTime:0.0265s ]
+NOTIC: [8] Undefined variable: subproject C:\xampp\htdocs\AO\Application\Home\Controller\ProjectController.class.php 第 122 行.
+
+[ 2017-03-09T17:28:33+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002102s ]
+SQL: SHOW COLUMNS FROM `subproject` [ RunTime:0.0073s ]
+NOTIC: [8] Undefined variable: subproject C:\xampp\htdocs\AO\Application\Home\Controller\ProjectController.class.php 第 122 行.
+
+[ 2017-03-09T17:28:33+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001883s ]
+SQL: SHOW COLUMNS FROM `subproject` [ RunTime:0.0081s ]
+NOTIC: [8] Undefined variable: subproject C:\xampp\htdocs\AO\Application\Home\Controller\ProjectController.class.php 第 122 行.
+
+[ 2017-03-09T17:28:33+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001963s ]
+SQL: SHOW COLUMNS FROM `subproject` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: subproject C:\xampp\htdocs\AO\Application\Home\Controller\ProjectController.class.php 第 122 行.
+
+[ 2017-03-09T17:30:15+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002521s ]
+SQL: SHOW COLUMNS FROM `subproject` [ RunTime:0.0136s ]
+NOTIC: [8] Undefined variable: subproject C:\xampp\htdocs\AO\Application\Home\Controller\ProjectController.class.php 第 122 行.
+
+[ 2017-03-09T17:30:57+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002188s ]
+SQL: SHOW COLUMNS FROM `subproject` [ RunTime:0.0136s ]
+NOTIC: [8] Undefined variable: subproject C:\xampp\htdocs\AO\Application\Home\Controller\ProjectController.class.php 第 122 行.
+
+[ 2017-03-09T18:18:21+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002778s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0251s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 1 AND `password` = '123' AND `isAdmin` = 0  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001615s ]
+
+[ 2017-03-09T18:23:33+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002413s ]
+SQL: SHOW COLUMNS FROM `subproject` [ RunTime:0.0153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001584s ]
+
+[ 2017-03-09T18:23:38+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002311s ]
+SQL: SHOW COLUMNS FROM `subproject` [ RunTime:0.0511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001597s ]
+
+[ 2017-03-09T18:24:56+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002734s ]
+SQL: SHOW COLUMNS FROM `subproject` [ RunTime:0.0323s ]
+SQL: INSERT INTO `subproject` (`title`,`pid`,`start`,`end`,`content`,`ueid`,`feid`,`rdid`,`qaid`,`date`) VALUES ('123','2','2017-03-09','2017-03-11','1','2','4','5','6','1489055096') [ RunTime:0.1121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004137s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004254s ]
+
+[ 2017-03-09T18:46:08+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001968s ]
+SQL: SHOW COLUMNS FROM `subproject` [ RunTime:0.0189s ]
+SQL: UPDATE `subproject` SET `title`='vstar首页搭建',`pid`='2',`start`='2017-03-09',`end`='2017-03-11',`content`='1',`time`='3',`ueid`='2',`feid`='4',`rdid`='5',`qaid`='6',`date`='1489056368' WHERE `spid` = 1 [ RunTime:0.0701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003235s ]
+
+[ 2017-03-09T18:46:27+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001601s ]
+SQL: SHOW COLUMNS FROM `subproject` [ RunTime:0.0279s ]
+SQL: UPDATE `subproject` SET `title`='vstar首页搭建',`pid`='2',`start`='2017-03-09',`end`='2017-03-11',`content`='负责vstar首页的搭建，设计图由UE给出',`time`='3',`ueid`='2',`feid`='4',`rdid`='5',`qaid`='6',`date`='1489056386' WHERE `spid` = 1 [ RunTime:0.0506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003160s ]
+
+[ 2017-03-09T18:56:39+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001569s ]
+SQL: SHOW COLUMNS FROM `subproject` [ RunTime:0.0273s ]
+SQL: INSERT INTO `subproject` (`title`,`pid`,`start`,`end`,`content`,`time`,`ueid`,`feid`,`rdid`,`qaid`,`date`) VALUES ('vstar活动页面','2','2017-03-12','2017-03-17','负责搭建vstar活动页面','5','2','4','5','6','1489056999') [ RunTime:0.0747s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003173s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003339s ]
+
+[ 2017-03-09T18:57:09+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001548s ]
+SQL: SHOW COLUMNS FROM `subproject` [ RunTime:0.0268s ]
+SQL: UPDATE `subproject` SET `title`='vstar活动页面',`pid`='2',`start`='2017-03-12',`end`='2017-03-17',`content`='负责搭建vstar活动页面',`time`='5',`ueid`='2',`feid`='4',`rdid`='5',`qaid`='6',`date`='1489057029' WHERE `spid` = 2 [ RunTime:0.2474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003425s ]
+
+[ 2017-03-09T18:59:41+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002688s ]
+SQL: SHOW COLUMNS FROM `subproject` [ RunTime:0.0444s ]
+SQL: UPDATE `subproject` SET `title`='vstar首页搭建',`pid`='2',`start`='2017-03-09',`end`='2017-03-11',`content`='负责vstar首页的搭建，设计图由UE给出',`time`='3',`ueid`='2',`feid`='4',`rdid`='5',`qaid`='6',`date`='1489057181' WHERE `spid` = 1 [ RunTime:0.0590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001946s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002030s ]
+
+[ 2017-03-09T19:12:29+08:00 ] ::1 /AO/index.php/Home/Project/weekTask
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.uid' in 'where clause'
+
+[ 2017-03-09T19:24:05+08:00 ] ::1 /AO/index.php/Home/Test/todayOnlined
+ERR: 非法操作:todayOnlined
+
+[ 2017-03-09T19:25:44+08:00 ] ::1 /AO/index.php/Home/Test/todayOnlined
+ERR: 非法操作:todayOnlined
+
+[ 2017-03-09T19:25:46+08:00 ] ::1 /AO/index.php/Home/Test/todayOnline
+ERR: 非法操作:todayOnline
+
+[ 2017-03-09T19:25:56+08:00 ] ::1 /AO/index.php/Home/Test/todayOnlined
+ERR: 非法操作:todayOnlined
+
+[ 2017-03-09T19:26:21+08:00 ] ::1 /AO/index.php/Home/Test/todayOnline
+ERR: 非法操作:todayOnline
+
+[ 2017-03-09T19:27:40+08:00 ] ::1 /AO/index.php/Home/Test/todayOnline
+ERR: 非法操作:todayOnline
+
+[ 2017-03-09T19:27:40+08:00 ] ::1 /AO/index.php/Home/Test/todayOnline
+ERR: 非法操作:todayOnline
+
+[ 2017-03-09T19:27:40+08:00 ] ::1 /AO/index.php/Home/Test/todayOnline
+ERR: 非法操作:todayOnline
+
+[ 2017-03-09T19:27:47+08:00 ] ::1 /AO/index.php/Home/Test/todayonline
+ERR: 非法操作:todayonline
+
+[ 2017-03-09T19:27:51+08:00 ] ::1 /AO/index.php/Home/Test/todayOnline
+ERR: 非法操作:todayOnline
+
+[ 2017-03-09T19:31:38+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001900s ]
+SQL: SHOW COLUMNS FROM `subproject` [ RunTime:0.0263s ]
+SQL: UPDATE `subproject` SET `title`='vstar首页搭建',`pid`='2',`start`='2017-03-09',`end`='2017-03-09',`content`='负责vstar首页的搭建，设计图由UE给出',`time`='1',`ueid`='2',`feid`='4',`rdid`='5',`qaid`='6',`date`='1489059098' WHERE `spid` = 1 [ RunTime:0.0694s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004185s ]
+
+[ 2017-03-09T19:52:40+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001570s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 1 AND `password` = '123' AND `isAdmin` = 0  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001343s ]
+
+[ 2017-03-09T19:55:34+08:00 ] ::1 /AO/index.php/Home/Test/doSubmit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001443s ]
+SQL: SHOW COLUMNS FROM `ojrecord` [ RunTime:0.0127s ]
+SQL: INSERT INTO `ojrecord` (`uid`,`oid`,`status`,`date`,`time`,`memory`,`language`) VALUES ('1','2','MLE','1489060534','0.2','65535','C/C++') [ RunTime:0.0815s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003148s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003269s ]
+

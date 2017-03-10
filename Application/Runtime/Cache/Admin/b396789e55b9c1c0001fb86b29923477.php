@@ -85,9 +85,17 @@
                 <div class="form-group">
                   <label for="exampleInputEmail2">部门:</label><br>
                   <select class="btn" style="border: 1px gray solid;" name="gid">
-                    <?php if(is_array($departmentinfo)): foreach($departmentinfo as $key=>$vo): if($vo["gid"] == $user.gid): ?><option value="<?php echo ($vo["gid"]); ?>" selected="selected"><?php echo ($vo["groupname"]); ?></option>
+                    <?php if(is_array($departmentinfo)): foreach($departmentinfo as $key=>$vo): if($vo['gid'] == $user['gid']): ?><option value="<?php echo ($vo["gid"]); ?>" selected="selected"><?php echo ($vo["groupname"]); ?></option>
                     <?php else: ?>
                     <option value="<?php echo ($vo["gid"]); ?>"><?php echo ($vo["groupname"]); ?></option><?php endif; endforeach; endif; ?>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail2">职位:</label><br>
+                  <select class="btn" style="border: 1px gray solid;" name="pkid">
+                    <?php if(is_array($pkid)): foreach($pkid as $key=>$vo): if($vo['pkid'] == $user['pkid']): ?><option value="<?php echo ($vo["pkid"]); ?>" selected="selected"><?php echo ($vo["kind"]); ?></option>
+                    <?php else: ?>
+                    <option value="<?php echo ($vo["pkid"]); ?>"><?php echo ($vo["kind"]); ?></option><?php endif; endforeach; endif; ?>
                   </select>
                 </div>
                 <div class="form-group">

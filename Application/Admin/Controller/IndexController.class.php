@@ -28,7 +28,9 @@ class IndexController extends Controller {
     	$department = M('department');
     	$departmentinfo = $department->select();
     	$this->assign("user",$userinfo[0]);
-    	$this->assign("departmentinfo",$departmentinfo);
+    	$pkid = M('pkind')->select();
+        $this->assign("departmentinfo",$departmentinfo);
+        $this->assign('pkid',$pkid);
     	$this->display();
     }
 
@@ -36,6 +38,7 @@ class IndexController extends Controller {
     {
     	$user = M('user');
     	$where['uid'] = $_POST['uid'];
+        $where['pkid'] = $_POST['pkid'];
     	$where['username'] = $_POST['username'];
     	$where['phone'] = $_POST['phone'];
     	$where['address'] = $_POST['address'];
@@ -54,7 +57,9 @@ class IndexController extends Controller {
     {
     	$department = M('department');
     	$departmentinfo = $department->select();
+        $pkid = M('pkind')->select();
     	$this->assign("departmentinfo",$departmentinfo);
+        $this->assign('pkid',$pkid);
     	$this->display();
     }
 
@@ -62,6 +67,7 @@ class IndexController extends Controller {
     {
     	$user = M('user');
     	$where['username'] = $_POST['username'];
+        $where['pkid'] = $_POST['pkid'];
     	$where['phone'] = $_POST['phone'];
     	$where['address'] = $_POST['address'];
     	$where['email'] = $_POST['email'];

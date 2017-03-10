@@ -92,6 +92,12 @@
                   </select>
                 </div>
                 <div class="form-group">
+                  <label for="exampleInputEmail2">职位:</label><br>
+                  <select class="btn" style="border: 1px gray solid;" name="pkid">
+                    <?php if(is_array($pkid)): foreach($pkid as $key=>$vo): ?><option value="<?php echo ($vo["pkid"]); ?>"><?php echo ($vo["kind"]); ?></option><?php endforeach; endif; ?>
+                  </select>
+                </div>
+                <div class="form-group">
                   <label for="exampleInputEmail2">身份证:</label>
                   <input type="text" class="form-control" name="idcard" value="<?php echo ($user["idcard"]); ?>" >
                 </div>

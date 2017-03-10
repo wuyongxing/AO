@@ -86,10 +86,22 @@
                   <label for="exampleInputEmail2">部门:</label><br>
                   <select class="btn" style="border: 1px gray solid;" name="gid">
                     <foreach name="departmentinfo" item="vo" >
-                    <if condition="$vo.gid eq $user.gid">
+                    <if condition="$vo['gid'] eq $user['gid']">
                     <option value="{$vo.gid}" selected="selected">{$vo.groupname}</option>
                     <else />
                     <option value="{$vo.gid}">{$vo.groupname}</option>
+                    </if>
+                    </foreach>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail2">职位:</label><br>
+                  <select class="btn" style="border: 1px gray solid;" name="pkid">
+                    <foreach name="pkid" item="vo" >
+                    <if condition="$vo['pkid'] eq $user['pkid']">
+                    <option value="{$vo.pkid}" selected="selected">{$vo.kind}</option>
+                    <else />
+                    <option value="{$vo.pkid}">{$vo.kind}</option>
                     </if>
                     </foreach>
                   </select>

@@ -1,0 +1,205 @@
+[ 2017-03-10T08:48:38+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001570s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.7154s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 0 AND `password` = '123' AND `isAdmin` = 0  [ RunTime:0.2930s ]
+NOTIC: [8] Undefined offset: 0 C:\xampp\htdocs\AO\Application\Home\Controller\LoginController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001343s ]
+
+[ 2017-03-10T08:48:38+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001643s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0553s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 1 AND `password` = '123' AND `isAdmin` = 0  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001115s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001165s ]
+
+[ 2017-03-10T09:25:12+08:00 ] ::1 /AO/index.php/Home/Project/addPerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001592s ]
+SQL: SHOW COLUMNS FROM `projectuser` [ RunTime:0.1024s ]
+SQL: INSERT INTO `projectuser` (`uid`,`pid`) VALUES ('2','2') [ RunTime:0.2337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002956s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003073s ]
+
+[ 2017-03-10T09:25:17+08:00 ] ::1 /AO/index.php/Home/Project/addPerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002117s ]
+SQL: SHOW COLUMNS FROM `projectuser` [ RunTime:0.0131s ]
+SQL: INSERT INTO `projectuser` (`uid`,`pid`) VALUES ('4','2') [ RunTime:0.2386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002944s ]
+
+[ 2017-03-10T09:25:21+08:00 ] ::1 /AO/index.php/Home/Project/addPerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002131s ]
+SQL: SHOW COLUMNS FROM `projectuser` [ RunTime:0.0123s ]
+SQL: INSERT INTO `projectuser` (`uid`,`pid`) VALUES ('6','2') [ RunTime:0.0560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003021s ]
+
+[ 2017-03-10T09:26:08+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001529s ]
+SQL: SHOW COLUMNS FROM `subproject` [ RunTime:0.0190s ]
+SQL: UPDATE `subproject` SET `title`='vstar活动页面',`pid`='2',`start`='2017-03-09',`end`='2017-03-17',`content`='负责搭建vstar活动页面',`time`='5',`ueid`='2',`feid`='4',`rdid`='5',`qaid`='6',`date`='1489109168' WHERE `spid` = 2 [ RunTime:0.0719s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002959s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003093s ]
+
+[ 2017-03-10T09:26:27+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001836s ]
+SQL: SHOW COLUMNS FROM `subproject` [ RunTime:0.0143s ]
+SQL: UPDATE `subproject` SET `title`='vstar首页搭建',`pid`='2',`start`='2017-03-09',`end`='2017-03-10',`content`='负责vstar首页的搭建，设计图由UE给出',`time`='1',`ueid`='2',`feid`='4',`rdid`='5',`qaid`='6',`date`='1489109187' WHERE `spid` = 1 [ RunTime:0.0993s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002953s ]
+
+[ 2017-03-10T10:39:44+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002510s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 1 AND `password` = '123' AND `isAdmin` = 0  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001327s ]
+
+[ 2017-03-10T13:44:34+08:00 ] ::1 /AO/index.php/Home/Project/modifystatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001676s ]
+SQL: SHOW COLUMNS FROM `subproject` [ RunTime:0.0342s ]
+SQL: SELECT * FROM `subproject` WHERE `spid` = 1  [ RunTime:0.0004s ]
+SQL: UPDATE `subproject` SET `status`='55',`start`='2017-03-09',`end`='2017-03-10',`content`='负责vstar首页的搭建，设计图由UE给出',`ueid`='2',`feid`='4',`rdid`='5',`qaid`='6',`date`='1489109187',`time`='1',`title`='vstar首页搭建',`pid`='2' WHERE `spid` = 1 [ RunTime:0.0601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003212s ]
+
+[ 2017-03-10T13:45:28+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001557s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0253s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 4 AND `password` = '123' AND `isAdmin` = 0  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001320s ]
+
+[ 2017-03-10T13:45:36+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001777s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0173s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 6 AND `password` = '123' AND `isAdmin` = 0  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 C:\xampp\htdocs\AO\Application\Home\Controller\LoginController.class.php 第 17 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001200s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001243s ]
+
+[ 2017-03-10T13:45:53+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001518s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 6 AND `password` = '' AND `isAdmin` = 0  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001155s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001196s ]
+
+[ 2017-03-10T13:46:04+08:00 ] ::1 /AO/index.php/Home/Project/modifystatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001778s ]
+SQL: SHOW COLUMNS FROM `subproject` [ RunTime:0.0258s ]
+SQL: SELECT * FROM `subproject` WHERE `spid` = 1  [ RunTime:0.0004s ]
+SQL: UPDATE `subproject` SET `status`='63',`start`='2017-03-09',`end`='2017-03-10',`content`='负责vstar首页的搭建，设计图由UE给出',`ueid`='2',`feid`='4',`rdid`='5',`qaid`='6',`date`='1489109187',`time`='1',`title`='vstar首页搭建',`pid`='2' WHERE `spid` = 1 [ RunTime:0.1103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004486s ]
+
+[ 2017-03-10T13:48:07+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002076s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 2 AND `password` = '123' AND `isAdmin` = 1  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001582s ]
+
+[ 2017-03-10T14:03:06+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001587s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0376s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 1 AND `password` = '123' AND `isAdmin` = 0  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001236s ]
+
+[ 2017-03-10T14:03:55+08:00 ] ::1 /AO/index.php/Home/Project/deletePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002014s ]
+SQL: SHOW COLUMNS FROM `projectuser` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `projectuser` WHERE `uid` = 2 AND `pid` = 2  [ RunTime:0.0003s ]
+SQL: DELETE FROM `projectuser` WHERE `uid` = 2 AND `pid` = 2 AND `puid` = 4 [ RunTime:0.4890s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004469s ]
+
+[ 2017-03-10T14:04:41+08:00 ] ::1 /AO/index.php/Home/Project/addPerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002103s ]
+SQL: SHOW COLUMNS FROM `projectuser` [ RunTime:0.0141s ]
+SQL: INSERT INTO `projectuser` (`uid`,`pid`) VALUES ('7','2') [ RunTime:0.0748s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002879s ]
+
+[ 2017-03-10T14:04:50+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001871s ]
+SQL: SHOW COLUMNS FROM `subproject` [ RunTime:0.0280s ]
+SQL: UPDATE `subproject` SET `title`='vstar首页搭建',`pid`='2',`start`='2017-03-09',`end`='2017-03-10',`content`='负责vstar首页的搭建，设计图由UE给出',`time`='1',`ueid`='7',`feid`='4',`rdid`='5',`qaid`='6',`date`='1489125890' WHERE `spid` = 1 [ RunTime:0.0761s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003184s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003325s ]
+
+[ 2017-03-10T14:04:56+08:00 ] ::1 /AO/index.php/Home/Project/addSubProject
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001571s ]
+SQL: SHOW COLUMNS FROM `subproject` [ RunTime:0.0160s ]
+SQL: UPDATE `subproject` SET `title`='vstar活动页面',`pid`='2',`start`='2017-03-09',`end`='2017-03-17',`content`='负责搭建vstar活动页面',`time`='5',`ueid`='7',`feid`='4',`rdid`='5',`qaid`='6',`date`='1489125896' WHERE `spid` = 2 [ RunTime:0.0603s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001433s ]
+
+[ 2017-03-10T14:05:14+08:00 ] ::1 /AO/index.php/Home/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001636s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `user` WHERE `uid` = 2 AND `password` = '123' AND `isAdmin` = 1  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001193s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001252s ]
+
